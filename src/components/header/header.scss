@@ -1,18 +1,19 @@
 @use '../../styles/partials/fonts';
 @use '../../styles/partials/mixins';
+@use '../../styles/partials/colors';
 
 .header {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-end;
-    background-color: #FFF3F3;
+    background-color: colors.$background-pink;
     @include mixins.tablet {
         justify-content: space-around;
     }
    
     &__logo {
         width: 10rem;
-        padding-left: 3.3rem;
+        padding-left: 4rem;
     }
     &__list {
         list-style-type: none;
@@ -22,11 +23,25 @@
         margin-right: 1rem;
         @include mixins.tablet {
             margin-right: 6rem;
+            display: flex;
+            justify-content: center;
+            align-items: center ;
         }
     }
     &__list-item {
-        padding: 0 0.3rem;
+        padding: 0 0.5rem;
         font-size: 0.9rem;
         font-weight: 400;
+    }
+    &__list-item-selected {
+        @include mixins.tablet {
+            padding: 0.3rem 1rem;
+            background-color: colors.$primary-brown;
+            border: none;
+            border-radius: 0.25rem ;
+            color: colors.$primary-white;
+           font-weight: 700;
+            cursor: pointer;
+        }
     }
 }

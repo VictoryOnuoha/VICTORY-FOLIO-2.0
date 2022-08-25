@@ -13,7 +13,7 @@ function Header() {
                 <ul className='header__list' >
                     <li className='header__list-item'>ABOUT</li>
                     <li className='header__list-item' >PORTFOLIO</li>
-                    <li className='header__list-item' >HIRE</li>
+                    <li className='header__list-item header__list-item-selected' >HIRE</li>
                 </ul>
             </nav>
         </header>
