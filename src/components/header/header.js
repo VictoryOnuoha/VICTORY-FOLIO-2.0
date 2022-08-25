@@ -1,7 +1,7 @@
 import logo from '../../assets/icons/logo.png';
 import './header.scss';
 
-const Header = () => {
+function Header() {
 
     return (
         <header className='header' >
@@ -11,9 +11,9 @@ const Header = () => {
 
             <nav className='header__nav' >
                 <ul className='header__list' >
-                    <li className='header__list-item'>ABOUT ME</li>
+                    <li className='header__list-item'>ABOUT</li>
                     <li className='header__list-item' >PORTFOLIO</li>
-                    <li className='header__list-item' >CONTACT ME </li>
+                    <li className='header__list-item' >HIRE</li>
                 </ul>
             </nav>
         </header>
