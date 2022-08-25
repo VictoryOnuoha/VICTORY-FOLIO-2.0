@@ -1,11 +1,16 @@
 import Header from './components/header/header'; 
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       
-          <Header />
+       <Router>
+       <Header />
+        <Switch>
+          <Route/>
+        </Switch>
+       </Router>
      
        
       </header>
