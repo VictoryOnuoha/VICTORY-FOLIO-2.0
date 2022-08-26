@@ -1,4 +1,5 @@
 import Header from './components/header/header'; 
+import About from './components/about/about';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
       <header className="App-header">
        <Router>
        <Header />
+       <About />
         <Switch>
           <Route/>
         </Switch>
