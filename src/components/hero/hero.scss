@@ -1,0 +1,77 @@
+@use '../../styles/partials/colors';
+
+
+.hero {
+    &__image-box{
+        margin: 3rem 0 0 1rem;
+    }
+    &__image {
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50%;
+        // border-color: linear-gradient(45deg, colors.$primary-brown, colors.$background-blush );
+    }
+    &__title {
+        margin: 0.5rem 1rem 0 1rem;
+        font-size: 1.2rem;
+    }
+    &__job-title {
+        font-size: 1.2rem;
+        margin: 0.5rem 0 0 1rem;
+        font-weight: 700;
+        font-weight: 1.2rem;
+        color: colors.$background-blush;
+    }
+    &__description{
+        margin: 2rem 1rem 0.5rem 1rem;
+        font-size: 1rem;
+        text-align: center;
+
+    }
+    &__description-box {
+        margin: 1rem;
+    }
+    &__description--selected {
+        color: colors.$background-blush;
+        font-weight: 700;
+        text-align: center;
+
+    }
+    &__link-box {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 2rem;
+    }
+    &__buttons{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 1rem;
+    }
+    &__button {
+        background-color: colors.$primary-brown;
+        color: colors.$primary-white;
+        border-color:transparent ;
+        font-family: inherit;
+        font-size: 0.9rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0.5rem;
+       padding:  0.5rem;
+    }
+    &__contact-button,
+    &__download-button {
+        width: 1rem;
+        height: 1rem;
+        padding-left: 0.08rem;
+    }
+    &__scroll-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__scroll-arrow {
+        width: 4rem;
+        height: 4rem;
+    }
+}

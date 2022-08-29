@@ -4,6 +4,7 @@ import githubIcon from '../../assets/icons/github.svg';
 import contactIcon from '../../assets/icons/contact.png';
 import downloadIcon from '../../assets/icons/download.png';
 import scrolldown from '../../assets/icons/scrolldown.gif';
+import './hero.scss';
 
 function Hero() {
     return(
@@ -13,14 +14,15 @@ function Hero() {
             </section>
 
             <section className='hero__title-box' >
-                <h1 className='hero__title' >Victory Onuoha</h1>
-                <h2 className='hero__job-title'>Front End Developer</h2>
+                <h1 className='hero__title' >VICTORY-RITA ONUOHA</h1>
+                <h2 className='hero__job-title'> 💻 Front End Developer</h2>
             </section>
 
             <section className='hero__description-box' >
-                <h2 className='hero__description' > A specialist in creating Intuitive, Pixel-perfect
-                    Responsive and Optimized web apps.
+                <h2 className='hero__description' > A specialist in creating 
                 </h2>
+                <span className='hero__description--selected'> Intuitive, Pixel-perfect,
+                    Responsive and Optimized web apps. ⭐</span>
             </section>
 
             <section className='hero__link-box' >
