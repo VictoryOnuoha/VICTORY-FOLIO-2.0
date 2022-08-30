@@ -1,51 +1,61 @@
 @use '../../styles/partials/colors';
+@use '../../styles/partials/mixins';
 
 
 .hero {
-    &__image-box{
+    &__about {
+       @include mixins.tablet {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+    }
+    &__user {
+        @include mixins.tablet {
+            width: 40%;
+        }
+    }
+    &__user-name{
         margin: 3rem 0 0 1rem;
+        display: flex;
     }
-    &__image {
-        width: 10rem;
-        height: 10rem;
-        border-radius: 50%;
-        // border-color: linear-gradient(45deg, colors.$primary-brown, colors.$background-blush );
-    }
-    &__title {
-        margin: 0.5rem 1rem 0 1rem;
-        font-size: 1.2rem;
+ 
+    &__user-title {
+        color: colors.$background-blush;
+        font-weight: 700;
+        margin-left: 1rem;
+
     }
     &__job-title {
-        font-size: 1.2rem;
+        font-size: 2rem;
+        line-height: 2.5rem;
         margin: 0.5rem 0 0 1rem;
         font-weight: 700;
         font-weight: 1.2rem;
-        color: colors.$background-blush;
+        color: colors.$primary-black;
     }
-    &__description{
-        margin: 2rem 1rem 0.5rem 1rem;
-        font-size: 1rem;
-        text-align: center;
-
+    &__user-description {
+        @include mixins.tablet {
+           width: 40%;
+            flex-direction: column;
+            margin-right: 4rem;
+        }
     }
-    &__description-box {
-        margin: 1rem;
-    }
-    &__description--selected {
-        color: colors.$background-blush;
-        font-weight: 700;
-        text-align: center;
-
-    }
+ 
     &__link-box {
         display: flex;
         justify-content: space-evenly;
         margin: 2rem;
+        @include mixins.tablet {
+            justify-content: flex-start;
+            margin: 1rem;
+        }
     }
     &__buttons{
         display: flex;
         justify-content: space-evenly;
         margin: 1rem;
+       
     }
     &__button {
         background-color: colors.$primary-brown;
@@ -59,7 +69,6 @@
         border-radius: 0.5rem;
        padding:  0.5rem;
     }
-    &__contact-button,
     &__download-button {
         width: 1rem;
         height: 1rem;
