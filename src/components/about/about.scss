@@ -1,11 +1,53 @@
-
+@use '../../styles/partials/colors';
+@use '../../styles/partials/mixins';
 .about {
 
     &__title {
-        margin-left:  6rem ;
+        margin: 1.245rem 0 1.245rem 1rem ;
     }
     &__info,
     &__text {
         margin-left: 1rem;
+        line-height: 2rem;
+    }
+    &__skills {
+        margin-left: 1rem;
+        font-size: 1.5rem;
+        color: colors.$background-blush;
+    }
+    &__text{
+        font-size: 1.1rem;
+    }
+    &__text-list {
+        list-style-type: none;
+    }
+    &__title-box {
+        display: flex;
+    }
+    &__title-line {
+        margin-left: 1rem;
+    }
+    &__buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem 1rem 1rem 1rem;
+    }
+    &__button {
+        background-color: colors.$primary-brown;
+        color: colors.$primary-white;
+        border-color:transparent ;
+        font-family: inherit;
+        font-size: 0.9rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0.5rem;
+       padding:  0.5rem;
+    }
+    &__download-button {
+        width: 1rem;
+        height: 1rem;
+        padding-left: 0.08rem;
     }
 }

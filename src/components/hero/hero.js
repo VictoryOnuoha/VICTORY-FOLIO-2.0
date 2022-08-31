@@ -2,8 +2,6 @@ import heroImage from '../../assets/images/headshot.jpg';
 import linkedinIcon from '../../assets/icons/linkedin.svg';
 import githubIcon from '../../assets/icons/github.svg';
 import contactIcon from '../../assets/icons/contact.png';
-import downloadIcon from '../../assets/icons/download.png';
-import scrolldown from '../../assets/icons/scrolldown.gif';
 import wavyLine from '../../assets/icons/wavy-black.png';
 import './hero.scss';
 
