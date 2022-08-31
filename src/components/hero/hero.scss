@@ -3,16 +3,29 @@
 
 
 .hero {
-    &__about {
-       @include mixins.tablet {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-       }
+    background: linear-gradient(-45deg, colors.$primary-white, colors.$primary-brown, colors.$background-pink);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+   
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
     }
     &__user {
         @include mixins.tablet {
             width: 40%;
+            margin: 0 0 0 2rem ;
         }
     }
     &__user-name{
@@ -21,7 +34,7 @@
     }
  
     &__user-title {
-        color: colors.$background-blush;
+        color: colors.$primary-white;
         font-weight: 700;
         margin-left: 1rem;
 
@@ -32,28 +45,26 @@
         margin: 0.5rem 0 0 1rem;
         font-weight: 700;
         font-weight: 1.2rem;
-        color: colors.$primary-black;
+        color: colors.$primary-white;
     }
-    &__user-description {
-        @include mixins.tablet {
-           width: 40%;
-            flex-direction: column;
-            margin-right: 4rem;
-        }
-    }
- 
     &__link-box {
         display: flex;
         justify-content: space-evenly;
         margin: 2rem;
         @include mixins.tablet {
             justify-content: flex-start;
-            margin: 1rem;
+            margin:1rem 1rem 1rem 3rem;
+        }
+    }
+    &__linkedin-link {
+        @include mixins.tablet {
+            margin: 0 1rem 0 0;
         }
     }
     &__buttons{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
+        align-items: center;
         margin: 1rem;
        
     }
@@ -78,6 +89,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 2rem;
     }
     &__scroll-arrow {
         width: 4rem;

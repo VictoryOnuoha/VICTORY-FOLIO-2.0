@@ -4,7 +4,7 @@ import githubIcon from '../../assets/icons/github.svg';
 import contactIcon from '../../assets/icons/contact.png';
 import downloadIcon from '../../assets/icons/download.png';
 import scrolldown from '../../assets/icons/scrolldown.gif';
-import wavyLine from '../../assets/icons/wavy-pink.png';
+import wavyLine from '../../assets/icons/wavy-black.png';
 import './hero.scss';
 
 function Hero() {
@@ -35,16 +35,16 @@ function Hero() {
             </section>
             
            
-            <section className='hero__buttons' >
+            {/* <section className='hero__buttons' >
                 <button className='hero__button'>
                     Download CV
                     <img src={downloadIcon} alt=' download cv icon' className='hero__download-button'/>
                 </button>
-            </section>
+            </section> */}
 
-            <section className='hero__scroll-box' >
+            {/* <section className='hero__scroll-box' >
                 <img src={scrolldown} alt='scroll down animation' className='hero__scroll-arrow' />
-            </section>
+            </section> */}
         </main>
     )
 }
