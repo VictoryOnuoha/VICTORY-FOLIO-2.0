@@ -1,6 +1,7 @@
 import Header from './components/header/header'; 
 import About from './components/about/about';
 import Hero from './components/hero/hero';
+import Projects from './components/projects/projects';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
        <Header />
        <Hero />
        <About />
+       <Projects/>
         <Switch>
           <Route/>
         </Switch>

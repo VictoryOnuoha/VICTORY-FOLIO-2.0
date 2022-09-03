@@ -65,3 +65,5 @@ const cards = [
         id: '2629feb0-2bb4-11ed-a261-0242ac120002'
     }
 ]
+
+export default cards;
