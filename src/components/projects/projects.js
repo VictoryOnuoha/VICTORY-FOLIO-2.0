@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import projectCards from '../../assets/data/card';
+import './projects.scss';
 
 function Projects() {
 
@@ -21,8 +22,8 @@ function Projects() {
                 {cards.map((card) => {
                     return(
                         <article key={card.id} className='projects__card' >
-                            <div>
-                                <img src={card.image} alt='image of project' className='projects__image' />
+                            <img src={card.image} alt='image of project' className='projects__image' />
+                            <div className='projects__card-box' >
                                 <h4 className='projects__title' >{card.title}</h4>
                                 <p className='projects__description'>{card.description}</p>
                             </div>

@@ -1,0 +1,19 @@
+
+.projects {
+    &__card {
+        margin: 1rem;
+        width: 90%;
+        box-shadow: 0 0.25rem 0.5rem 0 rgba(0,0,0, 0.2) ;
+        border-radius: 0.25rem;
+    }
+    &__card:hover {
+    box-shadow: 0 0.5rem 1.5rem 0 rgba(0,0,0, 0.2) ;
+    }
+    &__card-box {
+        padding: 1rem ;
+    }
+    &__image {
+        width: 100%;
+        border-radius: 0.5rem 0.5rem 0 0 ;
+    }
+}

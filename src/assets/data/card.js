@@ -5,6 +5,7 @@ import card4 from '../../assets/images/card4.jpg';
 import card5 from '../../assets/images/card5.jpg';
 import card6 from '../../assets/images/card6.jpg';
 import card7 from '../../assets/images/card7.jpg';
+import card8 from '../../assets/images/card8.jpg';
 
 const cards = [
     {
@@ -61,7 +62,7 @@ const cards = [
         title: 'SEBUM',
         category: 'WEB APP',
         description: 'Lorem ipsum dolro sit amt, consestcuer elit',
-        image: card6,
+        image: card8,
         id: '2629feb0-2bb4-11ed-a261-0242ac120002'
     }
 ]
