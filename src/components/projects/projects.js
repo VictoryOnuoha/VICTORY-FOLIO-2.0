@@ -5,17 +5,39 @@ import './projects.scss';
 function Projects() {
 
     const [cards, setCards] = useState(projectCards);
+    const [currentCard, setCurrentCard] = useState('ALL');
+
+    const handleClick = (e) => {
+        let word = e.target.value;
+        setCurrentCard(word);
+    }
+
+    useEffect(() => {
+        if(currentCard === 'ALL') {
+            setCards(projectCards);
+            
+        } else {
+            const filteredCards = projectCards.filter((card) => {
+                return (
+                    card.category === currentCard || card.category.includes(currentCard)
+                );
+            });
+            setCards(filteredCards);
+
+        }
+    }, [currentCard] );
 
     return (
         <main className='projects' >
             <section className='projects__title-box' >
-                <h3 className='projects__title' >PROJECTS</h3>
+                <h3 className='projects__header' >PROJECTS</h3>
             </section>
 
             <section className='projects__buttons' >
-                <button className='projects__button' >VIEW ALL</button>
-                <button className='projects__button' >WEB APP</button>
-                <button className='projects__button' >WEBSITES</button>
+                <button className='projects__button'  type='button' value='ALL' >VIEW ALL</button>
+                <button className='projects__button' type='button' value='FEATURED' >FEATURED</button>
+                <button className='projects__button' type='button' value='WEB APP' >WEB APP</button>
+                <button className='projects__button' type='button' value='WEBSITES' >WEBSITES</button>
             </section>
 
             <section className='projects__cards' >

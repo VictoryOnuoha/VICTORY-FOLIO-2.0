@@ -12,7 +12,7 @@ function About() {
 
             <section className='about__me-box' >
                 <article className='about__title-box' >
-                    <img src={wavyPink} className='about__title-line'/>
+                    <img src={wavyPink} className='about__title-line' alt='a decorative line'/>
                     <h2 className='about__title'>ABOUT ME </h2>
                 </article>   
             
