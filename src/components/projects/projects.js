@@ -15,7 +15,7 @@ function Projects() {
     useEffect(() => {
         if(currentCard === 'ALL') {
             setCards(projectCards);
-            
+
         } else {
             const filteredCards = projectCards.filter((card) => {
                 return (
@@ -34,10 +34,10 @@ function Projects() {
             </section>
 
             <section className='projects__buttons' >
-                <button className='projects__button'  type='button' value='ALL' >VIEW ALL</button>
-                <button className='projects__button' type='button' value='FEATURED' >FEATURED</button>
-                <button className='projects__button' type='button' value='WEB APP' >WEB APP</button>
-                <button className='projects__button' type='button' value='WEBSITES' >WEBSITES</button>
+                <button className='projects__button' onClick={handleClick} type='button' value='ALL' >VIEW ALL</button>
+                <button className='projects__button' onClick={handleClick} type='button' value='FEATURED' >FEATURED</button>
+                <button className='projects__button' onClick={handleClick} type='button' value='WEB APP' >WEB APP</button>
+                <button className='projects__button' onClick={handleClick} type='button' value='WEBSITES' >WEBSITES</button>
             </section>
 
             <section className='projects__cards' >

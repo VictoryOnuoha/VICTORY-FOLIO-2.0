@@ -2,7 +2,9 @@ import Header from './components/header/header';
 import About from './components/about/about';
 import Hero from './components/hero/hero';
 import Projects from './components/projects/projects';
+import Contact from './components/contact/contact';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
        <Hero />
        <About />
        <Projects/>
+       <Contact />
         <Switch>
           <Route/>
         </Switch>
