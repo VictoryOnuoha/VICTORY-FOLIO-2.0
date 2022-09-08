@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import './contact.scss';
+import contactImage from '../../assets/images/contact-image.svg';
 
 function Contact() {
 
@@ -71,6 +72,9 @@ function Contact() {
                       <input type='submit' name='submit' value="CONTACT ME" className='contact__button'/>
                     </section>
                 </form>
+                <section>
+                    <img className='contact__image' alt='image of people chatting' src={contactImage} />
+                </section>
             </section>
         </main>
     )

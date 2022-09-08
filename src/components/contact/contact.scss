@@ -20,6 +20,16 @@
         @include mixins.tablet {
             margin: 1rem 7rem 0 7rem;
         }
+        @include mixins.desktop {
+            width: 50%;
+            margin: 1rem 0 0 4rem;
+        }
+    }
+    &__form-box {
+        @include mixins.desktop {
+            display: flex;
+            justify-content: center;
+        }
     }
     &__input {
         padding: 0.5rem;
@@ -27,6 +37,7 @@
         margin: 0.5rem 1rem 1rem 0;
         width: 95%;
         font-family: inherit;
+        font-size: inherit;
     }
     &__button {
         background-color: colors.$primary-brown;
@@ -39,6 +50,9 @@
         font-weight: 700;
         @include mixins.tablet {
             font-size: 1rem;
+        }
+        @include mixins.desktop {
+            font-size: 1.3rem;
         }
         
     }
@@ -60,5 +74,16 @@
     &__customer,
     &__message {
         font-size: 1.2rem;
+        @include mixins.desktop {
+            font-size: 1.3rem;
+        }
+    }
+    &__image {
+        display: none;
+        @include mixins.desktop {
+            display: inline-flex;
+            width: 30rem;
+            height: 30rem;
+        }
     }
 }
