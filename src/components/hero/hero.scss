@@ -3,7 +3,7 @@
 
 
 .hero {
-    background: linear-gradient(-45deg, colors.$primary-white, colors.$primary-brown, colors.$background-pink);
+    background: radial-gradient( colors.$background-blush, colors.$background-blue );
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     position: relative;
