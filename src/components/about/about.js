@@ -5,7 +5,7 @@ import downloadIcon from '../../assets/icons/download.png';
 
 function About() {
     return(
-        <main className='about' >
+        <main className='about' id='about' >
             <section className='hero__scroll-box' >
                 <img src={scrolldown} alt='scroll down animation' className='hero__scroll-arrow' />
             </section>

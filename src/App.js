@@ -8,7 +8,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id='home' >
       <header className="App-header">
        <Router>
        <Header />

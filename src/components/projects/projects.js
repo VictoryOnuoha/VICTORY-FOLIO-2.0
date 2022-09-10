@@ -28,7 +28,7 @@ function Projects() {
     }, [currentCard] );
 
     return (
-        <main className='projects' >
+        <main className='projects' id='projects' >
             <section className='projects__title-box' >
                 <h3 className='projects__header' >PROJECTS</h3>
             </section>
@@ -37,7 +37,7 @@ function Projects() {
                 <button className='projects__button' onClick={handleClick} type='button' value='ALL' >VIEW ALL</button>
                 <button className='projects__button' onClick={handleClick} type='button' value='FEATURED' >FEATURED</button>
                 <button className='projects__button' onClick={handleClick} type='button' value='WEB APP' >WEB APP</button>
-                <button className='projects__button' onClick={handleClick} type='button' value='WEBSITES' >WEBSITES</button>
+                <button className='projects__button' onClick={handleClick} type='button' value='WEBSITE' >WEBSITES</button>
             </section>
 
             <section className='projects__cards' >
