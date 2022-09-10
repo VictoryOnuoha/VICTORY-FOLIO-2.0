@@ -1,6 +1,6 @@
 import './about.scss';
 import scrolldown from '../../assets/icons/scrolldown.gif';
-import wavyPink from '../../assets/icons/wavy-pink.png';
+import wavyWhite from '../../assets/icons/wavy-white.png';
 import downloadIcon from '../../assets/icons/download.png';
 
 function About() {
@@ -12,7 +12,7 @@ function About() {
 
             <section className='about__me-box' >
                 <article className='about__title-box' >
-                    <img src={wavyPink} className='about__title-line' alt='a decorative line'/>
+                    <img src={wavyWhite} className='about__title-line' alt='a decorative line'/>
                     <h2 className='about__title'>ABOUT ME </h2>
                 </article>   
             
