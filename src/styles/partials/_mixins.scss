@@ -1,6 +1,9 @@
 
 $tablet-breakpoint: 48rem;
 $desktop-breakpoint: 80rem;
+$large-desktop-breakpoint: 90rem;
+$extra-large-desktop-breakpoint: 105rem;
+$max-desktop-breakpoint: 120rem;
 
 //Media queries for tablet
 @mixin tablet {
@@ -15,4 +18,25 @@ $desktop-breakpoint: 80rem;
     @media (min-width: $desktop-breakpoint) {
         @content;
     }
+}
+//Media queries for large desktop-1440px
+
+@mixin largeDesktop {
+    @media (min-width: $large-desktop-breakpoint  ) {
+        @content;
+    }
+}
+//Media queries for  very large desktop -1680px
+
+@mixin extraLargeDesktop {
+    @media (min-width: $extra-large-desktop-breakpoint) {
+            @content;
+        }
+}
+//Media queries for  large desktop size -1920px
+
+@mixin maxLargeDesktop {
+    @media (min-width: $max-desktop-breakpoint) {
+            @content;
+        }
 }
