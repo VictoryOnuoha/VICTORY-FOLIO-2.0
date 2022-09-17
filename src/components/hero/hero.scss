@@ -7,14 +7,17 @@
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     position: relative;
-    margin: 5rem 0 0 0;
+    margin: 7rem 0 0 0;
     height: 22rem;
     width: 100%;
     // overflow: hidden;
     @include mixins.desktop {
         height: 40rem;
+        margin: 10rem 0 0 0;
     }
-   
+    @include mixins.maxLargeDesktop {
+        height: 50rem;
+    }
     @keyframes gradient {
         0% {
             background-position: 0% 50%;
@@ -57,6 +60,9 @@
         @include mixins.tablet {
             font-size: 1.2rem;
         }
+        @include mixins.maxLargeDesktop {
+            font-size: 2rem;
+        }
 
     }
     &__job-title {
@@ -72,6 +78,10 @@
         @include mixins.desktop {
             font-size: 4rem;
             line-height: 5rem;
+        }
+        @include mixins.maxLargeDesktop {
+            font-size: 5rem;
+            line-height: 6rem;
         }
     }
     &__image-box {
@@ -94,6 +104,10 @@
             width: 40rem;
             height: 40rem;
         }
+        @include mixins.maxLargeDesktop {
+            width: 50rem;
+            height: 50rem;
+        }
     }
     &__buttons {
         display: none;
@@ -101,6 +115,9 @@
             margin: 1.5rem 1rem;
             justify-content: flex-start;
             display: flex;
+        }
+        @include mixins.maxLargeDesktop {
+            margin: 2.5rem 1rem;
         }
     }
     &__button {
@@ -115,6 +132,11 @@
        font-weight: 700;
        font-family: inherit;
         cursor: pointer;
+        @include mixins.maxLargeDesktop {
+            font-size: 2rem;
+            padding: 0.8rem 1.2rem;
+            border-radius: 1rem ;
+        }
     }
     &__link-box {
         display: flex;
@@ -145,5 +167,9 @@
     &__scroll-arrow {
         width: 4rem;
         height: 4rem;
+        @include mixins.maxLargeDesktop {
+            width: 6rem;
+            height: 6rem;
+        }
     }
 }
