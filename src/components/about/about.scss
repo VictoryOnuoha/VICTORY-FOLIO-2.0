@@ -1,7 +1,16 @@
 @use '../../styles/partials/colors';
 @use '../../styles/partials/mixins';
 .about {
-
+    margin: 1rem 1rem 4rem 1rem;
+    @include mixins.tablet {
+        margin: 1rem 3rem 4rem 3rem;
+    }
+    @include mixins.desktop {
+        margin: 1rem 4rem 4rem 4rem;
+    }
+    @include mixins.largeDesktop {
+        margin: 1rem 8rem 4rem 8rem;
+    }
     &__title {
         margin: 1.245rem 0 1.245rem 1rem ;
         font-size: 2rem;
@@ -9,24 +18,96 @@
     &__info,
     &__text {
         margin-left: 1rem;
-        line-height: 2rem;
-    }
-    &__skills {
-        margin-left: 1rem;
-        font-size: 1.5rem;
-        color: colors.$background-blush;
+        line-height: 2.2rem;
+        @include mixins.desktop {
+            font-size: 2rem;
+            line-height: 3rem;
+        }
     }
     &__text{
         font-size: 1.1rem;
+        width: 90%;
+        text-align: left;
+        @include mixins.tablet {
+            font-size: 1.2rem;
+        }
+        @include mixins.desktop {
+            font-size: 1.5rem;
+        }
+        @include mixins.largeDesktop {
+            font-size: 1.8rem;
+        }
+    }
+    &__skills-box {
+        display: flex;
+        justify-content: center;
+    }
+    &__skills {
+        margin: 2rem 0 1rem 0;
+        @include mixins.desktop {
+            margin: 2rem 0 0 0;
+            font-size: 2rem;
+        }
+        @include mixins.largeDesktop {
+            margin: 8rem 0 0 0;
+        }
+    }
+    &__photo-box {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        height: 50%;
+        @include mixins.desktop {
+            width: 50%;
+        }
+    }
+    &__photo {
+        width: 80%;
+        margin: 1rem;
+        border-radius: 1rem;
+        @include mixins.tablet {
+            width: 60%;
+        }
+        @include mixins.desktop {
+            width: 100%;
+        }
     }
     &__text-list {
         list-style-type: none;
+        @include mixins.desktop {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+    &__text-list-item {
+        @include mixins.desktop {
+            padding: 1rem;
+        }
     }
     &__title-box {
         display: flex;
+        @include mixins.tablet {
+            justify-content: flex-start;
+        }
     }
     &__title-line {
         margin-left: 1rem;
+    }
+    &__title {
+        @include mixins.desktop{
+            font-size: 3rem ;
+        }
+    }
+    &__user {
+        @include mixins.desktop {
+            display: flex;
+        }
+    }
+    &__text-box {
+        @include mixins.desktop {
+            width: 50%;
+            margin: 0 2rem 0 0;
+        }
     }
     &__buttons {
         display: flex;
@@ -45,6 +126,9 @@
         align-items: center;
         border-radius: 0.5rem;
        padding:  0.5rem;
+       @include mixins.desktop {
+        font-size: 1.2rem;
+       }
     }
     &__download-button {
         width: 1rem;

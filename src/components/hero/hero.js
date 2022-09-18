@@ -3,7 +3,7 @@ import linkedinIcon from '../../assets/icons/linkedin.svg';
 import githubIcon from '../../assets/icons/github.svg';
 import downloadIcon from '../../assets/icons/download.png';
 import lineBlack from '../../assets/icons/line-black.png';
-import hero from '../../assets/images/heroimage.jpg';
+import hero from '../../assets/images/heroimage.png';
 import './hero.scss';
 
 function Hero() {
@@ -20,13 +20,12 @@ function Hero() {
 
                         <section className='hero__title-box' >
                             <h2 className='hero__job-title'> Hello, my name is Victory.</h2>
-                            <h2 className='hero__job-title'> I am a Front-end Web Developer.</h2>
+                            <h2 className='hero__job-title'> I am a Front-End Web Developer.</h2>
                         </section>
                         
                         <section className='hero__buttons' >
                             <button className='hero__button'>
-                                DOWNLOAD CV
-                                <img src={downloadIcon} alt=' download cv icon' className='hero__download-button'/>
+                                WORK WITH ME
                             </button>
                         </section>
                     </article>

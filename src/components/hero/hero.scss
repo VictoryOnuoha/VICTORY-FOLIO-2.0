@@ -132,8 +132,12 @@
        font-weight: 700;
        font-family: inherit;
         cursor: pointer;
+        @include mixins.desktop {
+            font-size: 1.2rem;
+            padding: 0.9rem 1rem;
+        }
         @include mixins.maxLargeDesktop {
-            font-size: 2rem;
+            font-size: 1.5rem;
             padding: 0.8rem 1.2rem;
             border-radius: 1rem ;
         }
