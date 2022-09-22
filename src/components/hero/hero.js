@@ -1,7 +1,7 @@
-import heroImage from '../../assets/images/headshot.jpg';
 import linkedinIcon from '../../assets/icons/linkedin.svg';
 import githubIcon from '../../assets/icons/github.svg';
 import downloadIcon from '../../assets/icons/download.png';
+import scrollDown from '../../assets/icons/scrolldown.gif';
 import lineBlack from '../../assets/icons/line-black.png';
 import hero from '../../assets/images/heroimage.png';
 import './hero.scss';
@@ -35,6 +35,9 @@ function Hero() {
                     </article>
 
                 </section>
+                <section className='hero__scroll-box' >
+                     <img src={scrollDown} alt='scroll down animation' className='hero__scroll-arrow' />
+                </section>
    
             
                 {/* <article className='hero__links' >
@@ -53,9 +56,7 @@ function Hero() {
                 </button>
             </section> */}
 
-            {/* <section className='hero__scroll-box' >
-                <img src={scrolldown} alt='scroll down animation' className='hero__scroll-arrow' />
-            </section> */}
+            
         </main>
     )
 }

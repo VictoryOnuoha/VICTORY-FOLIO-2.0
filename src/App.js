@@ -3,8 +3,8 @@ import About from './components/about/about';
 import Hero from './components/hero/hero';
 import Projects from './components/projects/projects';
 import Contact from './components/contact/contact';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-
+import Footer from './components/footer/footer';
+import {BrowserRouter as Router} from 'react-router-dom';
 
 function App() {
   return (
@@ -16,9 +16,7 @@ function App() {
        <About />
        <Projects/>
        <Contact />
-        <Switch>
-          <Route/>
-        </Switch>
+       <Footer/>
        </Router>
      
        

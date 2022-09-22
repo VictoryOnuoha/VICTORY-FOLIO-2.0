@@ -1,5 +1,4 @@
 import logo from '../../assets/icons/logo.png';
-import {Link} from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import './header.scss';
 
@@ -9,7 +8,8 @@ function Header() {
         <header className='header' >
             <section className='header__logo-box'>
                 <HashLink
-                 to='../../App#home'>
+                 to='../../App.js#home'
+                 smooth>
                  <img src={logo} className='header__logo' />
                 </HashLink>
             </section>

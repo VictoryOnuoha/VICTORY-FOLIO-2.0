@@ -7,7 +7,7 @@
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     position: relative;
-    margin: 7rem 0 0 0;
+    margin: 7rem 0 5rem 0;
     height: 22rem;
     width: 100%;
     // overflow: hidden;
@@ -163,17 +163,17 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 4rem 1rem 2rem 1rem;
         @include mixins.tablet {
             margin: 2rem 1rem 2rem 1rem;
         }
     }
     &__scroll-arrow {
-        width: 4rem;
-        height: 4rem;
+        width: 3rem;
+        height: 3rem;
+        margin: 4rem 1rem 8rem 1rem;
         @include mixins.maxLargeDesktop {
-            width: 6rem;
-            height: 6rem;
+            width: 4rem;
+            height: 4rem;
         }
     }
 }

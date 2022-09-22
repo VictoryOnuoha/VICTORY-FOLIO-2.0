@@ -7,9 +7,7 @@ import headshot from '../../assets/images/headshot.png';
 function About() {
     return(
         <main className='about' id='about' >
-            <section className='hero__scroll-box' >
-                <img src={scrolldown} alt='scroll down animation' className='hero__scroll-arrow' />
-            </section>
+         
 
             <section className='about__me-box' >
                 <article className='about__title-box' >

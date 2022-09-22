@@ -49,11 +49,11 @@ function Projects() {
                                 <h4 className='projects__title' >{card.title}</h4>
                                 <p className='projects__description'>{card.description}</p>
                                 
-                                <div>
-                                    <p> Technologies used: {card.technology}</p>
+                                <div className='projects__tech-box' >
+                                    <p className='projects__tech' > Technologies used: {card.technology}</p>
                                 </div>
                                 <div className='projects__links' >
-                                    <a href={card.live} target='_blank' className='projects__link'>Link</a>
+                                    <a href={card.live} target='_blank' className='projects__link'>View Live</a>
                                     <a href={card.repo} target='_blank' className='projects__link'>Repo</a>
                                 </div>
                                 
