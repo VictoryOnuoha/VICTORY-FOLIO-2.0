@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import './contact.scss';
-import linkedin from '../../assets/icons/linkedin-white.svg';
-import github from '../../assets/icons/github-white.svg'
+
 import contactImage from '../../assets/images/contact-image.svg';
 import emailjs from '@emailjs/browser';
 
@@ -98,10 +97,7 @@ function Contact() {
                         <section className='contact__button-box'>
                         <input type='submit' name='submit' value="CONTACT ME" className='contact__button'/>
                         </section>
-                        <section className="footer__link-box">
-                            <img alt='logo and link for linkledn page' src={linkedin} className='footer__linkedin-link' />
-                            <img alt='logo and link for github' src={github} className='footer__github-link' />
-                        </section>
+                       
                     </article>
                 </form>
                 <section>
