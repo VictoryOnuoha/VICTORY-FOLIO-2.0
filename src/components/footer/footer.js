@@ -1,32 +1,17 @@
 import { HashLink } from "react-router-hash-link";
-import logo from '../../assets/icons/logo.png';
+import logo from '../../assets/icons/logo-pink.png';
 
+import './footer.scss';
 function Footer() {
     return (
         <main className='footer'>
-            <section className='footer__image-box' >
-                <img src='' className='footer__image' />
+           
+            <section>
+                <h3></h3>
             </section>
-
-            <section className='footer__link-box' >
-                <ul className='footer__link' > 
-                    <li className='footer__link-item' >
-                        <HashLink 
-                         to='' >
-                        HOME
-                        </HashLink> 
-                    </li>
-                    <li className='footer__link-item'  >
-                        <HashLink>
-                        PORTFOLIO
-                        </HashLink> 
-                    </li>
-                    <li className='footer__link-item'>
-                        <HashLink>
-                        HIRE
-                        </HashLink> 
-                    </li>
-                </ul>
+           
+            <section>
+              &copy; 2022 VICTORY ONUOHA
             </section>
     </main>
     )

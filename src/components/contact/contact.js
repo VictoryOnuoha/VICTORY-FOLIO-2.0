@@ -1,7 +1,10 @@
 import React, {useState} from "react";
 import './contact.scss';
+import linkedin from '../../assets/icons/linkedin-white.svg';
+import github from '../../assets/icons/github-white.svg'
 import contactImage from '../../assets/images/contact-image.svg';
 import emailjs from '@emailjs/browser';
+
 
 
 function Contact() {
@@ -31,7 +34,7 @@ function Contact() {
     return(
         <main className='contact' id='contact' >
             <section className='contact__title-box' >
-                <h3 className='contact__title' >LET'S CHAT</h3>
+                <h3 className='contact__title' >LET'S CONNECT</h3>
             </section>
 
             <section className='contact__form-box' >
@@ -91,9 +94,15 @@ function Contact() {
                             placeholder='I want to work with you'
                             className='contact__input contact__message-box'/>
                     </label>
-                    <section className='contact__button-box'>
-                      <input type='submit' name='submit' value="CONTACT ME" className='contact__button'/>
-                    </section>
+                    <article>
+                        <section className='contact__button-box'>
+                        <input type='submit' name='submit' value="CONTACT ME" className='contact__button'/>
+                        </section>
+                        <section className="footer__link-box">
+                            <img alt='logo and link for linkledn page' src={linkedin} className='footer__linkedin-link' />
+                            <img alt='logo and link for github' src={github} className='footer__github-link' />
+                        </section>
+                    </article>
                 </form>
                 <section>
                     <img className='contact__image' alt='image of people chatting' src={contactImage} />

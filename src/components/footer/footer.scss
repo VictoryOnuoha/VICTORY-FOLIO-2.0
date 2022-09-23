@@ -1,0 +1,18 @@
+@use '../../styles/partials/colors';
+@use '../../styles/partials/mixins';
+.footer {
+    background-color: colors.$background-blush;
+    height: 20rem;
+  
+    &__link {
+        list-style-type: none;
+        margin: 0; 
+        padding: 1rem 2rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__link-item {
+        text-decoration: none;
+        padding: 0 0.4rem;
+    }
+}

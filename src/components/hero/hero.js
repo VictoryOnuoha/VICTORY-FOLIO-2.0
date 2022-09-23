@@ -1,5 +1,3 @@
-import linkedinIcon from '../../assets/icons/linkedin.svg';
-import githubIcon from '../../assets/icons/github.svg';
 import downloadIcon from '../../assets/icons/download.png';
 import scrollDown from '../../assets/icons/scrolldown.gif';
 import lineBlack from '../../assets/icons/line-black.png';
