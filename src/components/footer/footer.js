@@ -1,5 +1,3 @@
-import { HashLink } from "react-router-hash-link";
-import logo from '../../assets/icons/logo-pink.png';
 import linkedin from '../../assets/icons/linkedin-white.svg';
 import github from '../../assets/icons/github-white.svg'
 

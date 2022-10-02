@@ -1,5 +1,4 @@
 import './about.scss';
-import scrolldown from '../../assets/icons/scrolldown.gif';
 import wavyWhite from '../../assets/icons/wavy-pink.png';
 import downloadIcon from '../../assets/icons/download.png';
 import headshot from '../../assets/images/headshot.png';
@@ -42,7 +41,7 @@ function About() {
                     </p>
                 </article>
                 <section className='about__photo-box'>
-                    <img src={headshot} alt='a picture of Victory' className='about__photo' />
+                    <img src={headshot} alt='Victory' className='about__photo'  />
                 </section>
             </section>
 

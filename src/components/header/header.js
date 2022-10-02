@@ -10,7 +10,7 @@ function Header() {
                 <HashLink
                  to='../../App.js#home'
                  smooth>
-                 <img src={logo} className='header__logo' />
+                 <img src={logo} className='header__logo' alt='logo' />
                 </HashLink>
             </section>
 

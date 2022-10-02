@@ -1,4 +1,3 @@
-import downloadIcon from '../../assets/icons/download.png';
 import scrollDown from '../../assets/icons/scrolldown.gif';
 import lineBlack from '../../assets/icons/line-black.png';
 import hero from '../../assets/images/heroimage.png';
@@ -12,7 +11,7 @@ function Hero() {
 
                     <article className='hero__user' >
                         <section className='hero__user-name' >
-                            <img src={lineBlack} className='hero__user-line'/>
+                            <img src={lineBlack} className='hero__user-line' alt='irregular line' />
                             <p className='hero__user-title' >Victory-Rita Onuoha</p>
                         </section>
 

@@ -101,7 +101,7 @@ function Contact() {
                     </article>
                 </form>
                 <section>
-                    <img className='contact__image' alt='image of people chatting' src={contactImage} />
+                    <img className='contact__image' alt='people chatting' src={contactImage} />
                 </section>
             </section>
         </main>

@@ -44,7 +44,7 @@ function Projects() {
                 {cards.map((card) => {
                     return(
                         <article key={card.id} className='projects__card' >
-                            <img src={card.image} alt='image of project' className='projects__image' />
+                            <img src={card.image} alt='project demo' className='projects__image' />
                             <div className='projects__card-box' >
                                 <h4 className='projects__title' >{card.title}</h4>
                                 <p className='projects__description'>{card.description}</p>
@@ -53,8 +53,8 @@ function Projects() {
                                     <p className='projects__tech' > Technologies used: {card.technology}</p>
                                 </div>
                                 <div className='projects__links' >
-                                    <a href={card.live} target='_blank' className='projects__link'>View Live</a>
-                                    <a href={card.repo} target='_blank' className='projects__link'>Repo</a>
+                                    <a href={card.live} target='_blank' rel="noreferrer" className='projects__link'>View Live</a>
+                                    <a href={card.repo} target='_blank' rel="noreferrer" className='projects__link'>Repo</a>
                                 </div>
                                 
                             </div>
