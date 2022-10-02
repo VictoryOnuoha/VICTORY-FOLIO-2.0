@@ -20,12 +20,12 @@ const cards = [
 
     },
     {
-        title: 'COFFEE SHOP',
+        title: 'RETRO COFFEE SHOP',
         category: ['WEB APP', 'FEATURED', 'WEBSITE'],
         description: 'A stunning and responsive landing page for the best coffee in the world!',
         image: card2,
-        live: 'https://github.com/VictoryOnuoha',
-        repo: 'https://github.com/VictoryOnuoha',
+        live: 'https://retro-coffee-shop.herokuapp.com/index.html',
+        repo: 'https://github.com/VictoryOnuoha/retro-coffee-shop',
         technology: 'HTML5, SASS',
         id: '2629f71c-2bb4-11ed-a261-0242ac120002'
     },
@@ -34,8 +34,8 @@ const cards = [
         category: ['WEB APP', 'FEATURED', 'WEBSITE'],
         description: 'Trendy and dynamic website for the rock n roll icon',
         image: card4,
-        live: 'https://github.com/VictoryOnuoha',
-        repo: 'https://github.com/VictoryOnuoha',
+        live: 'https://bandsite-rock-icon.herokuapp.com/index.html',
+        repo: 'https://github.com/VictoryOnuoha/bandsite',
         technology: 'React JS, Javascript, SASS, Rest API',
         id: '2629f8e8-2bb4-11ed-a261-0242ac120002'
     },
@@ -54,8 +54,8 @@ const cards = [
         category: ['WEB APP', 'WEBSITE'],
         description: 'Elegant and SEO friendly landing page for the busy medical professional',
         image: card7,
-        live: 'https://github.com/VictoryOnuoha',
-        repo: 'https://github.com/VictoryOnuoha',
+        live: 'https://medical-expert.herokuapp.com/',
+        repo: 'https://github.com/VictoryOnuoha/expert-template',
         technology: 'React JS, Javascript, SASS, Node JS',
         id: 'bfeb748e-3131-11ed-a261-0242ac120002'
     },

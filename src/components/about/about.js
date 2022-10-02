@@ -21,16 +21,16 @@ function About() {
             <section className='about__user' >
                 <article className='about__text-box' >
                     <p className='about__text' >Thank you for being here! 
-                    I am Victory Onuoha, a Front-End Web Developer
-                    
+                    I am Victory Onuoha, a <strong> Front-End Web Developer </strong> 
+                    based in Canada.
                     </p>
-                    <p className='about__text' > I enjoy building delightful, 
-                        user-centered and accessible digital experiences.
+                    <p className='about__text' > I am skilled at creating stunning and scalable software products
+                    while keeping user experience and accesibilty in mind.
                     </p>
                     <p className='about__text' >A diligent 
                     <strong> Front-End focused Web Developer </strong>
-                    with over 2+ years of experience. I am a graduate 
-                    of BrainStation Web Development Intensive Bootcamp and
+                    with over 3+ years of experience. I am a graduate 
+                    of BrainStation Web Development Bootcamp and
                     I have a BSc in Neuroscience and Psychology from the 
                     University of Carleton.
                     </p>
@@ -49,8 +49,8 @@ function About() {
                 <section className='about__skills-box' >
                     <h2 className='about__skills' >SKILLS 💻</h2>
                 </section>
-                <p className='about__text'> I am always trying new tools 
-                    and technologies but, my current tech stack in my toolbelt is:
+                <p className='about__text'> I am always open to using new tools 
+                    and technologies but, my current tech stack is MERN with skills such as:
                 </p>
 
                
@@ -58,6 +58,7 @@ function About() {
                     <li className='about__text-list-item' >✅HTML5</li>
                     <li className='about__text-list-item' >✅CSS3</li>
                     <li className='about__text-list-item' >✅SASS</li>
+                    <li className='about__text-list-item' >✅FIGMA </li>
                     <li className='about__text-list-item' >✅React</li>
                     <li className='about__text-list-item' >✅GIT</li>
                     <li className='about__text-list-item' >✅Javascript</li>

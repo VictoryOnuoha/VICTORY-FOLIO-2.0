@@ -2,13 +2,22 @@
 @use '../../styles/partials/mixins';
 .footer {
     background-color: colors.$background-blush;
-    height: 15rem;
+    height: 17rem;
+    @include mixins.tablet {
+        height: 18rem;
+    }
     &__social-title {
         margin: 0 3rem;
         padding: 2rem 0 1rem 0;
         text-align: center;
         color: colors.$primary-white;
         font-size: 1.5rem ;
+        @include mixins.tablet {
+            font-size: 2rem;
+        }
+        @include mixins.largeDesktop {
+            font-size: 2.5rem;
+        }
     }
     &__link-box {
         display: flex;
@@ -22,12 +31,24 @@
     &__github-link {
         padding: 0 1rem;
         width: 5rem;
+        @include mixins.tablet {
+            width: 6rem;
+        }
+        @include mixins.largeDesktop {
+            width: 7rem;
+        }
     }
     &__author {
         color: colors.$primary-white;
         font-size: 0.8rem;
         margin: 2rem 1rem ;
         text-align: center;
+        @include mixins.tablet {
+            font-size: 1rem;
+        }
+        @include mixins.largeDesktop {
+            font-size: 1.2rem;
+        }
     }
     &__copyright {
         color: colors.$primary-white;
@@ -35,5 +56,14 @@
         margin: 2rem 1rem ;
         display: flex;
         justify-content: center;
+        @include mixins.tablet {
+            font-size: 0.8rem;
+        }
+        @include mixins.largeDesktop {
+            font-size: 1rem;
+        }
+        @include mixins.largeDesktop {
+            margin: 2rem 1rem 3rem 1rem;
+        }
     }
 }
