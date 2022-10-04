@@ -1,1 +1,44 @@
 [debug] [2022-10-04T23:06:35.599Z] ----------------------------------------------------------------------
+[debug] [2022-10-04T23:06:35.601Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\auser\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-10-04T23:06:35.602Z] CLI Version:   11.13.0
+[debug] [2022-10-04T23:06:35.602Z] Platform:      win32
+[debug] [2022-10-04T23:06:35.602Z] Node Version:  v16.15.1
+[debug] [2022-10-04T23:06:35.603Z] Time:          Tue Oct 04 2022 19:06:35 GMT-0400 (Eastern Daylight Saving Time)
+[debug] [2022-10-04T23:06:35.603Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-10-04T23:06:35.611Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-10-04T23:06:35.613Z] > authorizing via signed-in user (naunau9631@googlemail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\auser\OneDrive\Documents\CODING\CODING PROJECTS\portfolio-website-2.0\victorystudio2.0
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-10-04T23:07:35.214Z] > refreshing access token with scopes: []
+[debug] [2022-10-04T23:07:35.216Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-10-04T23:07:35.217Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-10-04T23:07:35.356Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-10-04T23:07:35.356Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-10-04T23:07:35.368Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-10-04T23:07:35.840Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-10-04T23:07:35.840Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project victoryfolio (hellovictory) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
