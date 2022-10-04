@@ -58,16 +58,7 @@ const cards = [
         id: 'bfeb748e-3131-11ed-a261-0242ac120002'
     },
 
-    {
-        title: 'SPRINTDAY',
-        category: 'WEB APP',
-        description: 'A task management software for the busy bee',
-        image: card8,
-        live: 'https://github.com/VictoryOnuoha',
-        repo: 'https://github.com/VictoryOnuoha',
-        technology: 'React JS, Javascript, SASS, Rest API,React DND Express JS, Node JS',
-        id: '2629feb0-2bb4-11ed-a261-0242ac120002'
-    }
+   
 ]
 
 export default cards;
