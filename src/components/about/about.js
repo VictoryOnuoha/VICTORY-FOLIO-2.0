@@ -24,7 +24,7 @@ function About() {
                     based in Canada.
                     </p>
                     <p className='about__text' > I am skilled at creating stunning and scalable software products
-                    while keeping user experience and accesibilty in mind.
+                    while keeping user experience and accessibility in mind.
                     </p>
                     <p className='about__text' >A diligent 
                     <strong> Front-End focused Web Developer </strong>
@@ -65,6 +65,7 @@ function About() {
                     <li className='about__text-list-item' >✅Bootstrap</li>
                     <li className='about__text-list-item' >✅Node.js</li>
                     <li className='about__text-list-item' >✅Express.js</li>
+                    <li className='about__text-list-item' >✅Firebase </li>
                     <li className='about__text-list-item' >✅SQL </li>
 
                 </ul>
