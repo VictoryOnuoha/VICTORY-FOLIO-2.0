@@ -1,6 +1,5 @@
 import './about.scss';
 import wavyWhite from '../../assets/icons/wavy-pink.png';
-import downloadIcon from '../../assets/icons/download.png';
 import headshot from '../../assets/images/headshot.png';
 
 function About() {
@@ -72,7 +71,6 @@ function About() {
                 <section className='about__buttons' >
                 <button className='about__button'>
                     DOWNLOAD CV
-                    <img src={downloadIcon} alt=' download cv icon' className='about__download-button'/>
                 </button>
             </section>
           
