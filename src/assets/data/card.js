@@ -13,7 +13,7 @@ const cards = [
         image: card1,
         live: 'https://victoryfolio.web.app',
         repo: 'https://github.com/VictoryOnuoha/VICTORY-FOLIO-2.0',
-        technology: 'React JS, Javascript, SASS, Email JS, Node JS',
+        technology: 'React JS, Javascript, SASS, Email JS, Node JS, Firebase',
         id: '2629f55a-2bb4-11ed-a261-0242ac120002'
 
     },

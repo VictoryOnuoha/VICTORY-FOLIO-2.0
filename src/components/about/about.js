@@ -27,7 +27,7 @@ function About() {
                     while keeping user experience and accessibility in mind.
                     </p>
                     <p className='about__text' >A diligent 
-                    <strong> Front-End focused Web Developer </strong>
+                    <strong> Web Developer </strong>
                     with over 3+ years of experience. I am a graduate 
                     of BrainStation Web Development Bootcamp and
                     I have a BSc in Neuroscience and Psychology from the 
