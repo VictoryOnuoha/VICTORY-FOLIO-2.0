@@ -9,7 +9,7 @@ const cards = [
         category: ['WEB APP', 'FEATURED', 'WEBSITE'],
         description: 'Epic and minimal portfolio website template for tech profesionals',
         image: card1,
-        live: 'https://victoryfolio.web.app',
+        live: 'https://victoryonuoha.com',
         repo: 'https://github.com/VictoryOnuoha/VICTORY-FOLIO-2.0',
         technology: 'React JS, Javascript, SASS, Email JS, Node JS, Firebase',
         id: '2629f55a-2bb4-11ed-a261-0242ac120002'
