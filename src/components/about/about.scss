@@ -34,6 +34,7 @@
         }
         @include mixins.desktop {
             font-size: 1.5rem;
+            text-align: left;
         }
         @include mixins.largeDesktop {
             font-size: 1.8rem;

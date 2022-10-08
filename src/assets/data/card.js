@@ -38,16 +38,6 @@ const cards = [
         id: '2629f8e8-2bb4-11ed-a261-0242ac120002'
     },
     {
-        title: 'INSTOCK INVENTORY',
-        category: ['WEB APP', 'FEATURED'],
-        description: 'Functional full stack inventory management system for the Fortune 500 client ',
-        image: card5,
-        live: 'https://github.com/VictoryOnuoha',
-        repo: 'https://github.com/VictoryOnuoha',
-        technology: 'React JS, Javascript, SASS, Rest API, Express JS, Node JS',
-        id: '2629fb04-2bb4-11ed-a261-0242ac120002'
-    },
-    {
         title: 'MEDICAL DOCTOR WEBSITE',
         category: ['WEB APP', 'WEBSITE'],
         description: 'Elegant and SEO friendly landing page for the busy medical professional',

@@ -16,6 +16,7 @@ function About() {
                     <h1 className='about__info' >Hello, World 🦋
                     </h1>
             </section>
+
             <section className='about__user' >
                 <article className='about__text-box' >
                     <p className='about__text' >Thank you for being here! 
@@ -43,12 +44,12 @@ function About() {
                     <img src={headshot} alt='Victory' className='about__photo'  />
                 </section>
             </section>
-
+            <section>
                 <section className='about__skills-box' >
                     <h2 className='about__skills' >SKILLS 💻</h2>
                 </section>
                 <p className='about__text'> I am always open to using new tools 
-                    and technologies but, my current tech stack is MERN with skills such as:
+                    and technologies but, my current tech stack are skills such as:
                 </p>
 
                
@@ -68,12 +69,13 @@ function About() {
                     <li className='about__text-list-item' >✅SQL </li>
 
                 </ul>
-                <section className='about__buttons' >
+
+            <section className='about__buttons' >
                 <button className='about__button'>
                     DOWNLOAD CV
                 </button>
             </section>
-          
+        </section> 
         </main>
     )
 }
