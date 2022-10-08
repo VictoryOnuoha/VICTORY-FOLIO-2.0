@@ -1,6 +1,7 @@
 import './about.scss';
 import wavyWhite from '../../assets/icons/wavy-pink.png';
 import headshot from '../../assets/images/headshot.png';
+import resume from '../../assets/files/Victory_Onuoha_Web_Developer_Resume.pdf';
 
 function About() {
     return(
@@ -71,9 +72,11 @@ function About() {
                 </ul>
 
             <section className='about__buttons' >
-                <button className='about__button'>
-                    DOWNLOAD CV
-                </button>
+                
+                    <a className='about__button' href={resume} download>
+                     DOWNLOAD CV
+                    </a>
+               
             </section>
         </section> 
         </main>

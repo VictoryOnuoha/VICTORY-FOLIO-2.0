@@ -1,9 +1,7 @@
 import card1 from '../../assets/images/card1.png';
 import card2 from '../../assets/images/card2.png';
 import card4 from '../../assets/images/card4.png';
-import card5 from '../../assets/images/card5.png';
 import card7 from '../../assets/images/card7.png';
-import card8 from '../../assets/images/card8.png';
 
 const cards = [
     {

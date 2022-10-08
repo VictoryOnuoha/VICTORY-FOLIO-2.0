@@ -129,6 +129,7 @@
         letter-spacing: 0.1rem;
         border-radius: 0.5rem;
        padding:  0.5rem;
+       text-decoration: none;
        @include mixins.desktop {
         font-size: 1.2rem;
        }

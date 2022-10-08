@@ -1,3 +1,4 @@
+import { HashLink } from 'react-router-hash-link';
 import scrollDown from '../../assets/icons/scrolldown.gif';
 import lineBlack from '../../assets/icons/line-black.png';
 import hero from '../../assets/images/heroimage.png';
@@ -21,9 +22,11 @@ function Hero() {
                         </section>
                         
                         <section className='hero__buttons' >
-                            <button className='hero__button'>
-                                WORK WITH ME
-                            </button>
+                            
+                                <HashLink className='hero__button' smooth to='../contact/contact.js#contact' >
+                                  WORK WITH ME
+                                </HashLink>
+                            
                         </section>
                     </article>
 

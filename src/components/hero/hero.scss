@@ -132,6 +132,7 @@
         color: colors.$primary-white;
        font-weight: 700;
        font-family: inherit;
+       text-decoration: none;
         cursor: pointer;
         @include mixins.desktop {
             font-size: 1.2rem;
