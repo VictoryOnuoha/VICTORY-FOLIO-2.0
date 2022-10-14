@@ -17,7 +17,7 @@ function Footer() {
             </section>
            
             <section className="footer__copyright-box" >
-             <span className='footer__copyright' > &copy; 2022 VICTORY STUDIOS</span>  
+             <span className='footer__copyright' > &copy; 2022 RIJE STUDIOS</span>  
             </section>
     </main>
     )
