@@ -9,8 +9,12 @@ function Footer() {
                 <h3 className='footer__social-title' > FIND ME ON SOCIAL ! </h3>
             </section>
             <section className="footer__link-box">
-                <img alt='logo and link for linkledn page' src={linkedin} className='footer__linkedin-link' />
+                <a href='https://www.linkedin.com/in/victoryrita-onuoha/' target='_blank' >
+                    <img alt='logo and link for linkledn page' src={linkedin} className='footer__linkedin-link' />
+                </a> 
+                <a href='https://github.com/VictoryOnuoha' target='_blank' >
                 <img alt='logo and link for github' src={github} className='footer__github-link' />
+                </a>
             </section>
             <section className='footer__author-box' >
                 <h4 className='footer__author' >Designed and Developed with ☕ by Victory Onuoha </h4>
