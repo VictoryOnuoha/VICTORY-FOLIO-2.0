@@ -17,7 +17,7 @@ function Contact() {
     const onSubmit = (e) => {
         e.preventDefault();
         emailjs
-        .send('service_jxlcs4e', 'template_7l9aj25', toSend, 'bahH2Ue8uJwWNsMaG')
+        .send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', toSend, 'templateParams')
         .then((response) => {
             alert('Thank you for your email! I will reach out to you as soon as possible', response.status);
         }).catch((err) => {
