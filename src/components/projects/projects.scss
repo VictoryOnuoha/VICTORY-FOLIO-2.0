@@ -7,9 +7,9 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 3rem 0.5rem;
+    margin: 5.5rem 0.5rem;
     @include mixins.largeDesktop {
-        margin: 20rem 3rem;
+        margin: 10rem 3rem;
     }
     
     &__header {
@@ -82,9 +82,8 @@
     &__buttons {
         display: flex;
         justify-content: center;
-        align-items: center;
         width: 100%;
-        margin: 1rem 0;
+        margin: 1rem auto;
         @include mixins.tablet {
             width: 80%;
             margin: 1.5rem 0;

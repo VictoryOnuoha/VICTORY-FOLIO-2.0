@@ -14,14 +14,39 @@ function Contact() {
             user_title: '',
     });
 
+
+    
     const onSubmit = (e) => {
         e.preventDefault();
+
+        // if (
+        //     this.state.user_email === "" 
+        //   ) {
+        //         alert('Error! Please try again')
+        //   }
+        //   if (
+        //     this.state.user_name === "" 
+        //   ) {
+        //         alert('Error! Please try again')
+        //   }
+        //   if (
+        //     this.state.message === "" 
+        //   ) {
+        //         alert('Error! Please try again')
+        //   }
+        //   if (
+        //     this.state.user_title === "" 
+        //   ) {
+        //         alert('Error! Please try again')
+        //   };
+
         emailjs
         .send('service_jxlcs4e', 'template_7l9aj25', toSend, 'bahH2Ue8uJwWNsMaG')
         .then((response) => {
             alert('Thank you for your email! I will reach out to you as soon as possible', response.status);
         }).catch((err) => {
-            alert('Error! Please try again', err)
+            alert('Error! Please try again', err);
+
         });
        
     }

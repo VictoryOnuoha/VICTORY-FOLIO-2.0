@@ -1,11 +1,8 @@
 @use '../../styles/partials/colors';
 @use '../../styles/partials/mixins';
 .footer {
-    background-color: colors.$background-blush;
-    height: 17rem;
-    @include mixins.tablet {
-        height: 18rem;
-    }
+    background-color: #B0B0B0;
+
     &__social-title {
         margin: 0 3rem;
         padding: 2rem 0 1rem 0;
@@ -53,17 +50,20 @@
     &__copyright {
         color: colors.$primary-white;
         font-size: 0.6rem;
-        margin: 2rem 1rem ;
+        margin: 0rem 1rem ;
         display: flex;
         justify-content: center;
         @include mixins.tablet {
             font-size: 0.8rem;
+            padding-bottom: 1.5rem;
         }
         @include mixins.largeDesktop {
             font-size: 1rem;
+            
         }
-        @include mixins.largeDesktop {
-            margin: 2rem 1rem 3rem 1rem;
-        }
+        // @include mixins.largeDesktop {
+        //     margin: 2rem 1rem 3rem 1rem;
+        // }
     }
+    
 }

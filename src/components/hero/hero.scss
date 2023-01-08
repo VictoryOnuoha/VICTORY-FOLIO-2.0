@@ -3,19 +3,21 @@
 
 
 .hero {
-    background-image:linear-gradient( rgba(255, 243, 243, 1), rgba(255, 255, 255, 0.2));
+    background-image: linear-gradient(198deg, #54f5a4, #8697fa 56%);
     background-size: 400% 400%;
     position: relative;
-    margin: 6rem 0 5rem 0;
-    height: 22rem;
+    margin: 6rem 0rem 0rem 0rem;
+    height: 35rem;
     width: 100%;
+    display: flex;
+    
     // overflow: hidden;
     @include mixins.desktop {
-        height: 40rem;
+        height: 55rem;
         margin: 5rem 0 0 0;
     }
     @include mixins.maxLargeDesktop {
-        height: 50rem;
+        height: 65rem;
         margin: 7rem 0 0 0;
 
     }
@@ -33,6 +35,12 @@
     &__about-user {
         @include mixins.tablet {
             display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 4rem auto 0 auto ;
+        }
+        @include mixins.largeDesktop {
+            width: 80%;
         }
     }
     &__user {
@@ -41,7 +49,7 @@
             margin: 0 0 0 2rem ;
         }
         @include mixins.desktop {
-            width: 50%;
+            width: 70%;
             margin: 0 0 0 3rem ;
 
         }
@@ -53,6 +61,7 @@
             margin: 1rem;
         }
     }
+  
  
     &__user-title {
         color: colors.$primary-black;
@@ -68,8 +77,8 @@
     }
     &__job-title {
         font-size: 2rem;
-        line-height: 2.5rem;
-        margin: 0.5rem 0 0 1rem;
+        line-height: 3rem;
+        margin: 1rem auto auto 1rem;
         font-weight: 700;
         font-weight: 1.2rem;
         color: colors.$primary-black;
@@ -77,8 +86,9 @@
             font-size: 1.8rem;
         }
         @include mixins.desktop {
-            font-size: 4rem;
+            font-size: 3rem;
             line-height: 5rem;
+            
         }
         @include mixins.maxLargeDesktop {
             font-size: 5rem;
@@ -94,8 +104,8 @@
         }
     }
     &__image {
-        width: 9rem;
-        height: 9rem;
+        width: 15rem;
+        height: 15rem;
         border-radius: 50%;
         @include mixins.tablet {
             width: 20rem;
@@ -126,7 +136,7 @@
         align-items: center;
         justify-content: center;
         padding: 0.3rem 1rem;
-        background-color: colors.$primary-brown;
+        background-color: colors.$background-blush;
         border: 0.02rem solid colors.$primary-brown;
         border-radius: 0.5rem ;
         color: colors.$primary-white;

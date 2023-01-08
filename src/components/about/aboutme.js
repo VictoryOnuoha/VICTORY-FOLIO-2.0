@@ -1,12 +1,12 @@
 import './about.scss';
 import wavyWhite from '../../assets/icons/wavy-pink.png';
 import headshot from '../../assets/images/headshot.png';
-import resume from '../../assets/files/Victory_Onuoha_Software_Developer_Resume.pdf';
+import resume from '../../assets/files/Victory_Onuoha_Resume_Front_End_Software_Developer.pdf';
 
 function About() {
     return(
         <main className='about' id='about' >
-         
+        
 
             <section className='about__me-box' >
                 <article className='about__title-box' >

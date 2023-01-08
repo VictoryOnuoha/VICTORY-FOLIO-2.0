@@ -1,5 +1,5 @@
-import logo from '../../assets/icons/logo.png';
-import { HashLink } from 'react-router-hash-link';
+import logo from '../../assets/icons/logoo.png';
+import { Link } from 'react-router-dom';
 import './header.scss';
 
 function Header() {
@@ -7,38 +7,38 @@ function Header() {
     return (
         <header className='header' >
             <section className='header__logo-box'>
-                <HashLink
-                 to='../../App.js#home'
+                <Link
+                 to='/'
                  smooth>
                  <img src={logo} className='header__logo' alt='logo' />
-                </HashLink>
+                </Link>
             </section>
 
             <nav className='header__nav' >
                 <ul className='header__list' >
                     <li> 
-                        <HashLink
+                        <Link
                           className='header__list-item'
                           smooth 
-                          to='../about/about.js#about'>
+                          to='/about'>
                             ABOUT
-                        </HashLink>
+                        </Link>
                     </li>
                     <li> 
-                        <HashLink
+                        <Link
                           className='header__list-item'
                           smooth
-                          to='../projects/project.js#projects' >
+                          to='/projects' >
                             PROJECTS
-                        </HashLink>
+                        </Link>
                     </li>
                     <li> 
-                        <HashLink
+                        <Link
                           className='header__list-item header__list-item-selected'
                           smooth
-                          to='../contact/contact.js#contact' >
+                          to='/contact' >
                             HIRE
-                        </HashLink>
+                        </Link>
                     </li>
                     
                 </ul>

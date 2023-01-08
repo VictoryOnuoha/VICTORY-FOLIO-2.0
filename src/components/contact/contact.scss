@@ -9,9 +9,13 @@
         text-align: center ;
         font-size: 2rem;
         padding: 3rem 0 0.5rem 0;
+        margin: 4rem auto;
         @include mixins.tablet {
             font-size: 3rem;
             margin-bottom: 2rem;
+        }
+        @include mixins.largeDesktop {
+            margin: 6rem auto;
         }
     }
 

@@ -1,10 +1,10 @@
-import Header from './components/header/header'; 
+import Header from './components/header/headers'; 
 import About from './components/about/about';
-import Hero from './components/hero/hero';
-import Projects from './components/projects/projects';
-import Contact from './components/contact/contact';
+import Hero from './components/hero/heros';
+import Projects from './components/projects/project';
+import Contact from './components/contact/contacts';
 import Footer from './components/footer/footer';
-import {BrowserRouter as Router} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
   return (
@@ -12,11 +12,16 @@ function App() {
       <header className="App-header">
        <Router>
        <Header />
-       <Hero />
-       <About />
-       <Projects/>
-       <Contact />
+
+        <Switch>
+          <Route path='/' exact component={Hero} />
+          <Route path='/about' component={About} />
+          <Route path='/projects' component={Projects} />
+          <Route path='/contact' component={Contact} />
+        </Switch>
+
        <Footer/>
+
        </Router>
      
        
