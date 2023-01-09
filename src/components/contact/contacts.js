@@ -7,17 +7,17 @@ import emailjs from '@emailjs/browser';
 
 
 function Contact() {
-    const [toSend, setToSend] = useState({
-            user_name: '',
-            user_email: '',
-            message: '',
-            user_title: '',
-    });
+    // const [toSend, setToSend] = useState({
+    //         user_name: '',
+    //         user_email: '',
+    //         message: '',
+    //         user_title: '',
+    // });
 
 
     
-    const onSubmit = (e) => {
-        e.preventDefault();
+    // const onSubmit = (e) => {
+    //     e.preventDefault();
 
         // if (
         //     this.state.user_email === "" 
@@ -40,20 +40,20 @@ function Contact() {
         //         alert('Error! Please try again')
         //   };
 
-        emailjs
-        .send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', toSend, 'templateParams')
-        .then((response) => {
-            alert('Thank you for your email! I will reach out to you as soon as possible', response.status);
-        }).catch((err) => {
-            alert('Error! Please try again', err);
+    //     emailjs
+    //     .send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', toSend, 'templateParams')
+    //     .then((response) => {
+    //         alert('Thank you for your email! I will reach out to you as soon as possible', response.status);
+    //     }).catch((err) => {
+    //         alert('Error! Please try again', err);
 
-        });
+    //     });
        
-    }
+    // }
 
-    const handleChange = (e) => {
-        setToSend({...toSend, [e.target.name]: e.target.value});
-    }
+    // const handleChange = (e) => {
+    //     setToSend({...toSend, [e.target.name]: e.target.value});
+    // }
 
     return(
         <main className='contact' id='contact' >
@@ -62,7 +62,7 @@ function Contact() {
             </section>
 
             <section className='contact__form-box' >
-                <form
+                {/* <form
                 className='contact__form'
                 onSubmit={onSubmit}
                 >
@@ -124,7 +124,7 @@ function Contact() {
                         </section>
                        
                     </article>
-                </form>
+                </form> */}
                 <section>
                     <img className='contact__image' alt='people chatting' src={contactImage} />
                 </section>

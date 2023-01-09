@@ -64,7 +64,7 @@ function About() {
                 <article className='about__text-box' >
                     <p className='about__text'>
                         In my spare time, I create and experiment with web and app development.
-                        Some of which can be found on Github.
+                        Some of which can be found on <a href='https://github.com/VictoryOnuoha' target='_blank'> Github</a>.
                     </p>
                     <p className='about__text' >
                         My other interests include personal finance, artifical intelligence, automation, reading, writing,
