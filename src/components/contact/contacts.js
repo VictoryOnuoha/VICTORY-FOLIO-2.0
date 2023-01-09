@@ -1,8 +1,10 @@
 import React, {useState} from "react";
 import './contact.scss';
-
+import email from '../../assets/images/email 2.svg'
 import contactImage from '../../assets/images/contact-image.svg';
-import emailjs from '@emailjs/browser';
+import linkedin from '../../assets/icons/linkedin.svg';
+import github from '../../assets/icons/github.svg';
+// import emailjs from '@emailjs/browser';
 
 
 
@@ -62,6 +64,30 @@ function Contact() {
             </section>
 
             <section className='contact__form-box' >
+                <article className='contact__cta' >
+                    <section className='contact__title-box'>
+                        <h4 className='contact__title-item'>I help businesses and entrepreneurs design, build, test and deploy
+                            web applications.
+                        </h4>
+                        <h4 className='contact__title-item' >Contact me if want an agile and creative software engineer on your team.</h4>
+                    </section>
+                    <section className="contact__links-box" >
+                        <a href="mailto: victoryonuoha@cmail.carleton.ca" 
+                        target='_blank'>
+                            <img src={email} alt='logo for email' className='contact__link-email' />
+                        </a>
+                        <a href='https://www.linkedin.com/in/victoryrita-onuoha/'
+                         target='_blank'>
+                            <img alt='logo and link for linkledn page' src={linkedin} className='contact__link' />
+                        </a>
+                        <a href='https://github.com/VictoryOnuoha' 
+                        target='_blank' >
+                            <img alt='logo and link for github' src={github} className='contact__link' />
+                        </a>
+                    </section>
+                   
+
+                </article>
                 {/* <form
                 className='contact__form'
                 onSubmit={onSubmit}

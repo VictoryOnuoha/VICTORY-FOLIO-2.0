@@ -3,13 +3,15 @@
 
 .contact {
     width: 100%;
-    background-color: colors.$background-pink;
+    background-color: colors.$primary-white;
+    
 
     &__title { 
         text-align: center ;
         font-size: 2rem;
         padding: 3rem 0 0.5rem 0;
-        margin: 4rem auto;
+        margin: 5rem auto 1rem auto;
+        color: colors.$background-blush;
         @include mixins.tablet {
             font-size: 3rem;
             margin-bottom: 2rem;
@@ -29,63 +31,108 @@
             margin: 1rem 0 0 4rem;
         }
     }
+    &__title-box {
+        @include mixins.tablet {
+            width: 90%;
+            margin: 0 auto;
+        }
+    }
+    &__cta {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        margin: auto 3rem;
+    }
+    &__title-item {
+        font-size: 1.2rem;
+        letter-spacing: 0.08rem;
+        line-height: 1.6;
+        @include mixins.tablet {
+            font-size: 1.5rem;
+        }
+    }
+    &__links-box {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 1rem 0 3rem 0;
+        @include mixins.tablet {
+            justify-content: space-evenly;
+        }
+    }
+    &__link-email {
+        width: 3.2rem;
+        @include mixins.tablet {
+            width: 4.5rem;
+        }
+    }
+    &__link {
+        @include mixins.tablet {
+            width: 5rem;
+        }
+    }
+
     &__form-box {
         @include mixins.desktop {
             display: flex;
             justify-content: center;
         }
     }
-    &__input {
-        padding: 0.5rem;
-        border-radius: 0.4rem;
-        margin: 0.5rem 1rem 1rem 0;
-        width: 95%;
-        font-family: inherit;
-        font-size: inherit;
-    }
-    &__button {
-        background-color: colors.$primary-brown;
-        color: colors.$primary-white;
-        border-radius: 0.25rem;
-        padding: 0.5rem 1rem;
-        border: 0.05rem solid colors.$primary-brown ;
-        font-family: inherit;
-        font-size: 0.9rem;
-        font-weight: 700;
-        @include mixins.tablet {
-            font-size: 1rem;
-        }
-        @include mixins.desktop {
-            font-size: 1.3rem;
-        }
+
+    // &__input {
+    //     padding: 0.5rem;
+    //     border-radius: 0.4rem;
+    //     margin: 0.5rem 1rem 1rem 0;
+    //     width: 95%;
+    //     font-family: inherit;
+    //     font-size: inherit;
+    // }
+    // &__button {
+    //     background-color: colors.$primary-brown;
+    //     color: colors.$primary-white;
+    //     border-radius: 0.25rem;
+    //     padding: 0.5rem 1rem;
+    //     border: 0.05rem solid colors.$primary-brown ;
+    //     font-family: inherit;
+    //     font-size: 0.9rem;
+    //     font-weight: 700;
+    //     @include mixins.tablet {
+    //         font-size: 1rem;
+    //     }
+    //     @include mixins.desktop {
+    //         font-size: 1.3rem;
+    //     }
         
-    }
-    &__button-box {
-        padding: 0.5rem 0 2rem 0;
+    // }
+    // &__button-box {
+    //     padding: 0.5rem 0 2rem 0;
+    //     @include mixins.tablet {
+    //         display: flex;
+    //         justify-content: center;
+    //     }
+    // }
+    // &__message-box{
+    //     resize: none;
+    //     @include mixins.tablet {
+    //         height: 8rem ;
+    //     }
+    // }
+    // &__name,
+    // &__email,
+    // &__customer,
+    // &__message {
+    //     font-size: 1.2rem;
+    //     @include mixins.desktop {
+    //         font-size: 1.3rem;
+    //     }
+    // }
+    &__image {
+        display: none;
         @include mixins.tablet {
             display: flex;
             justify-content: center;
-        }
-    }
-    &__message-box{
-        resize: none;
-        @include mixins.tablet {
-            height: 8rem ;
-        }
-    }
-    &__name,
-    &__email,
-    &__customer,
-    &__message {
-        font-size: 1.2rem;
-        @include mixins.desktop {
-            font-size: 1.3rem;
-        }
-    }
-    &__image {
-        display: none;
-        @include mixins.desktop {
-            display: inline-flex;
+            margin: 0 auto;
             width: 30rem;
             height: 30rem;
         }

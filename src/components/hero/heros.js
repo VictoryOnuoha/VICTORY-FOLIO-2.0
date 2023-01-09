@@ -1,6 +1,5 @@
 import { HashLink } from 'react-router-hash-link';
 import {Link} from 'react-router-dom';
-import lineBlack from '../../assets/icons/line-black.png';
 import hero from '../../assets/images/heroimage.svg';
 import './hero.scss';
 
@@ -11,10 +10,7 @@ function Hero() {
                 <section className='hero__about-user' >
 
                     <article className='hero__user' >
-                        {/* <section className='hero__user-name' >
-                            <img src={lineBlack} className='hero__user-line' alt='irregular line' />
-                            <p className='hero__user-title' >Victory-Rita Onuoha</p>
-                        </section> */}
+                       
 
                         <section className='hero__title-box' >
                             <h2 className='hero__job-title'> Hello. I am Victory.</h2>
