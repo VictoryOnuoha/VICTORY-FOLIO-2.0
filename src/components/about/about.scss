@@ -12,10 +12,11 @@
     @include mixins.largeDesktop {
         // margin: 1rem 8rem 4rem 8rem;
     }
-    &__title {
-        margin: 1.245rem 0 1.245rem 1rem ;
-        font-size: 2rem;
-    }
+    // &__title {
+    //     margin: 1.245rem 0 1.245rem 1rem ;
+    //     font-size: 2rem;
+        
+    // }
     &__info,
     &__text {
         margin-left: 1rem;
@@ -107,6 +108,14 @@
         @include mixins.desktop{
             font-size: 3rem ;
             text-align: center;
+        }
+        @include mixins.largeDesktop {
+            margin: 4rem auto 1rem auto;
+        }
+    }
+    &__title-about {
+        @include mixins.largeDesktop {
+            padding-top: 6rem;
         }
     }
     &__user {

@@ -12,7 +12,7 @@ function About() {
             
                 <article className='about__title-box' >
                     {/* <img src={wavyWhite} className='about__title-line' alt='a decorative line'/> */}
-                    <h2 className='about__title'>ABOUT ME 👋🏾 </h2>
+                    <h2 className='about__title about__title-about'>ABOUT ME 👋🏾 </h2>
                 </article>
 
                 {/* about user=============== */}
