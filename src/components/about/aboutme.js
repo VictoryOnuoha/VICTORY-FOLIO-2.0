@@ -34,29 +34,37 @@ function About() {
                     <img src={headshot} alt='Victory' className='about__photo'  />
                 </section>
             </section>
+
+            <article className='about__skills-box' >
+                    <h2 className='about__title' >BACKGROUND 💻</h2>
+            </article>
+
             <section>
-                <article className='about__skills-box' >
-                    <h2 className='about__skills' >BACKGROUND 💻</h2>
+                <article className='about__user' >
+                    <section className='about__photo-box'>
+                        <img src={background} alt='Victory' className='about__photo' />
+                    </section>
+
+                    <section className='about__text-box' >
+                        <p className='about__text'>
+                            Software Engineer with additional experience in healthcare & operations.
+                        </p>
+                        <p className='about__text' >
+                            I have Bachelors in Neuroscience and a diploma in Web Development.
+                            I am passionate about using technolgy to solve client-facing problems.
+                        </p>
+                    </section>
+
                 </article>
-                <article>
-                <section className='about__photo-box'>
-                    <img src={background} alt='Victory' className='about__photo'  />
-                </section>
-                    <p className='about__text'>
-                    Software Engineer with additional experience in healthcare & operations. 
-                    </p>
-                    <p className='about__text' >
-                    I have Bachelors in Neuroscience and a diploma in Web Development.
-                    I am passionate about using technolgy to solve client-facing problems.
-                    </p>
-                </article>
-                
+
             </section>
-            <section>
-                <article className='about__skills-box' >
-                    <h2 className='about__skills' > INTERESTS 🤹🏽</h2>
-                </article>
-                <article>
+
+            <article className='about__skills-box' >
+                    <h2 className='about__title' > INTERESTS 🤹🏽</h2>
+            </article>
+            
+            <section className='about__user'>
+                <article className='about__text-box' >
                     <p className='about__text'>
                     In my spare time, I create and experiment with web and app development.
                      Some of which can be found on Github.
@@ -65,10 +73,11 @@ function About() {
                     My other interests include personal finance, Artifical Intelligence, automation, reading, writing, 
                     design, emerging technologies and pop culture.
                     </p>
-                        <section className='about__photo-box'>
-                        <img src={interests} alt='Victory' className='about__photo'  />
-                        </section>
+                       
                 </article>
+                <section className='about__photo-box'>
+                        <img src={interests} alt='Victory' className='about__photo'  />
+                </section>
                 
             </section>
             <section>
