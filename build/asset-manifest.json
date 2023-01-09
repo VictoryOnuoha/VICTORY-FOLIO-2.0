@@ -1,30 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.afc6db85.css",
-    "main.js": "/static/js/main.6048e2b6.js",
-    "static/media/heroimage.png": "/static/media/heroimage.d24488d1f374d9ea743b.png",
-    "static/media/headshot.png": "/static/media/headshot.791d7c4ff9ea2671991c.png",
-    "static/media/card4.png": "/static/media/card4.f7f6d370654a2af623ff.png",
-    "static/media/card7.png": "/static/media/card7.20a8e0ec102b13de457c.png",
-    "static/media/card1.png": "/static/media/card1.a76cd08eae69936f38e9.png",
-    "static/media/card2.png": "/static/media/card2.d78fbc188d28d0473c4c.png",
+    "main.css": "/static/css/main.18d7ad6d.css",
+    "main.js": "/static/js/main.db66ef55.js",
+    "static/media/card 4.png": "/static/media/card 4.b4aebcc752097e22c0ce.png",
+    "static/media/card 1.png": "/static/media/card 1.5e4375b248f721a7a7d1.png",
+    "static/media/card 7.png": "/static/media/card 7.7c57a52d9800db40859e.png",
+    "static/media/card 2.png": "/static/media/card 2.c43fc7a341bffd7b67e7.png",
+    "static/media/Victory_Onuoha_Resume_Front_End_Software_Developer.pdf": "/static/media/Victory_Onuoha_Resume_Front_End_Software_Developer.cbce95c469241d2f81da.pdf",
     "static/media/Comfortaa-Medium.ttf": "/static/media/Comfortaa-Medium.db5c74bd40268b35dc93.ttf",
     "static/media/Comfortaa-Light.ttf": "/static/media/Comfortaa-Light.2d79c8b673318d831c9b.ttf",
     "static/media/Comfortaa-Bold.ttf": "/static/media/Comfortaa-Bold.059cc3e0c5d00a88354f.ttf",
-    "static/media/Victory_Onuoha_Software_Developer_Resume.pdf": "/static/media/Victory_Onuoha_Software_Developer_Resume.4cc1708e4a20642f8f29.pdf",
     "static/media/Comfortaa-Medium.woff2": "/static/media/Comfortaa-Medium.1f961fbe31333ef7dbde.woff2",
     "static/media/Comfortaa-Bold.woff2": "/static/media/Comfortaa-Bold.3da666d3f2f8c4b0ab87.woff2",
     "static/media/Comfortaa-Light.woff2": "/static/media/Comfortaa-Light.881f76691f2eaa63205d.woff2",
-    "static/media/logo.png": "/static/media/logo.fc9a75994fd1cf6cc5fc.png",
+    "static/media/interests.svg": "/static/media/interests.9ac060882732cde924e4fab913f22cd9.svg",
+    "static/media/heroimage.svg": "/static/media/heroimage.349ea21ed8697504fc4e19e5347c732b.svg",
+    "static/media/background.svg": "/static/media/background.94bad406037fa21f83d33fead3ed7a6b.svg",
+    "static/media/headshot.svg": "/static/media/headshot.3fd63af4961c6b5c70e651c2b3ad6151.svg",
+    "static/media/logoo.png": "/static/media/logoo.9e48cdc87c3cb03f3f57.png",
     "static/media/contact-image.svg": "/static/media/contact-image.4b681cfaf18008c340767f8c12448919.svg",
+    "static/media/email 2.svg": "/static/media/email 2.106c918814921829521fdb26e11845de.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.c304a4148cde039a54532585f4d47b48.svg",
+    "static/media/github.svg": "/static/media/github.1d96bd7641cb1e4a1c064a48e52751ab.svg",
     "static/media/github-white.svg": "/static/media/github-white.d4577cfbb9306cfe891b2ac5c1586b8c.svg",
     "static/media/linkedin-white.svg": "/static/media/linkedin-white.7ea113699fb66e38731911cd17c61005.svg",
     "index.html": "/index.html",
-    "main.afc6db85.css.map": "/static/css/main.afc6db85.css.map",
-    "main.6048e2b6.js.map": "/static/js/main.6048e2b6.js.map"
+    "main.18d7ad6d.css.map": "/static/css/main.18d7ad6d.css.map",
+    "main.db66ef55.js.map": "/static/js/main.db66ef55.js.map"
   },
   "entrypoints": [
-    "static/css/main.afc6db85.css",
-    "static/js/main.6048e2b6.js"
+    "static/css/main.18d7ad6d.css",
+    "static/js/main.db66ef55.js"
   ]
 }

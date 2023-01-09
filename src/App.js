@@ -1,5 +1,5 @@
 import Header from './components/header/headers'; 
-import About from './components/about/about';
+import About from './components/about/aboutme';
 import Hero from './components/hero/hero';
 import Projects from './components/projects/projects';
 import Contact from './components/contact/contact';
