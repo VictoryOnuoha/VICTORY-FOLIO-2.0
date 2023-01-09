@@ -1,6 +1,7 @@
 import './about.scss';
-import wavyWhite from '../../assets/icons/wavy-pink.png';
-import headshot from '../../assets/images/headshot.png';
+import headshot from '../../assets/images/headshot.svg';
+import background from '../../assets/images/background.svg';
+import interests from '../../assets/images/interests.svg';
 import resume from '../../assets/files/Victory_Onuoha_Resume_Front_End_Software_Developer.pdf';
 
 function About() {
@@ -10,43 +11,68 @@ function About() {
 
             <section className='about__me-box' >
                 <article className='about__title-box' >
-                    <img src={wavyWhite} className='about__title-line' alt='a decorative line'/>
+                    {/* <img src={wavyWhite} className='about__title-line' alt='a decorative line'/> */}
                     <h2 className='about__title'>ABOUT ME </h2>
                 </article>   
             
-                    <h1 className='about__info' >Hello, World 🦋
-                    </h1>
+                    {/* <h1 className='about__info' >Hello, World 🦋
+                    </h1> */}
             </section>
 
             <section className='about__user' >
                 <article className='about__text-box' >
-                    <p className='about__text' >Thank you for being here! 
-                    I am Victory Onuoha, a <strong> Front-End Web Developer </strong> 
-                    based in Canada.
+                    <p className='about__text' >Hi, my name is Victory Onuoha. Welcome to my personal site 👋🏾
                     </p>
-                    <p className='about__text' > I am skilled at creating stunning and scalable software products
-                    while keeping user experience and accessibility in mind.
-                    </p>
-                    <p className='about__text' >A diligent 
-                    <strong> Web Developer </strong>
-                    with over 2+ years of experience. I am a graduate 
-                    of BrainStation Web Development Bootcamp and
-                    I have a BSc in Neuroscience and Psychology from the 
-                    University of Carleton.
+                    
+                    <p className='about__text' >I love all things technology, productivity and 
+                     nature related. Have fun exploring! 
                     </p>
 
-                    <p className='about__text' > When I am not reading or hiking, I am
-                    passionate about helping <strong> solo entrepreneurs </strong>
-                    and <strong>businesses</strong>  <strong> transform their digital presence </strong> 
-                        by building stunning, <strong> highly intuituve and performant custom web apps.</strong>
-                    </p>
+                  
                 </article>
                 <section className='about__photo-box'>
                     <img src={headshot} alt='Victory' className='about__photo'  />
                 </section>
             </section>
             <section>
-                <section className='about__skills-box' >
+                <article className='about__skills-box' >
+                    <h2 className='about__skills' >BACKGROUND 💻</h2>
+                </article>
+                <article>
+                <section className='about__photo-box'>
+                    <img src={background} alt='Victory' className='about__photo'  />
+                </section>
+                    <p className='about__text'>
+                    Software Engineer with additional experience in healthcare & operations. 
+                    </p>
+                    <p className='about__text' >
+                    I have Bachelors in Neuroscience and a diploma in Web Development.
+                    I am passionate about using technolgy to solve client-facing problems.
+                    </p>
+                </article>
+                
+            </section>
+            <section>
+                <article className='about__skills-box' >
+                    <h2 className='about__skills' > INTERESTS 🤹🏽</h2>
+                </article>
+                <article>
+                    <p className='about__text'>
+                    In my spare time, I create and experiment with web and app development.
+                     Some of which can be found on Github.
+                    </p>
+                    <p className='about__text' >
+                    My other interests include personal finance, Artifical Intelligence, automation, reading, writing, 
+                    design, emerging technologies and pop culture.
+                    </p>
+                        <section className='about__photo-box'>
+                        <img src={interests} alt='Victory' className='about__photo'  />
+                        </section>
+                </article>
+                
+            </section>
+            <section>
+                {/* <section className='about__skills-box' >
                     <h2 className='about__skills' >SKILLS 💻</h2>
                 </section>
                 <p className='about__text'> I am always open to using new tools 
@@ -69,11 +95,11 @@ function About() {
                     <li className='about__text-list-item' >✅Firebase </li>
                     <li className='about__text-list-item' >✅SQL </li>
 
-                </ul>
+                </ul> */}
 
             <section className='about__buttons' >
                 
-                    <a className='about__button' href={resume} download>
+                    <a className='about__button' target="_blank" href={resume} download>
                      DOWNLOAD CV
                     </a>
                
