@@ -17,7 +17,7 @@
             margin-bottom: 2rem;
         }
         @include mixins.largeDesktop {
-            margin: 6rem auto;
+            margin: 10rem auto 1rem auto;
         }
     }
 
@@ -43,6 +43,10 @@
         justify-content: center;
         width: 80%;
         margin: auto 3rem;
+        @include mixins.desktop {
+            width: 60%;
+            margin: 1rem auto;
+        }
     }
     &__title-item {
         font-size: 1.2rem;
@@ -50,6 +54,9 @@
         line-height: 1.6;
         @include mixins.tablet {
             font-size: 1.5rem;
+        }
+        @include mixins.largeDesktop {
+            font-size: 2.8rem;
         }
     }
     &__links-box {
@@ -66,19 +73,25 @@
         @include mixins.tablet {
             width: 4.5rem;
         }
+        @include mixins.largeDesktop {
+            width: 8rem;
+        }
     }
     &__link {
         @include mixins.tablet {
             width: 5rem;
         }
-    }
-
-    &__form-box {
-        @include mixins.desktop {
-            display: flex;
-            justify-content: center;
+        @include mixins.largeDesktop {
+            width: 8rem;
         }
     }
+
+    // &__form-box {
+    //     @include mixins.desktop {
+    //         display: flex;
+    //         justify-content: center;
+    //     }
+    // }
 
     // &__input {
     //     padding: 0.5rem;
