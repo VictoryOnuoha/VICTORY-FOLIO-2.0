@@ -38,7 +38,7 @@ const cards = [
     {
         title: 'VICTORY FOLIO',
         category: ['WEB APP', 'WEBSITE'],
-        description: 'Elegant and SEO friendly lwebsite for the professional software engineer',
+        description: 'Elegant and SEO friendly website for the professional software engineer',
         image: card7,
         live: 'https://victoryonuoha.com/',
         repo: 'https://github.com/VictoryOnuoha/VICTORY-FOLIO-2.0',

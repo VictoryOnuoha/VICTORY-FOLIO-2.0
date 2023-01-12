@@ -3,15 +3,20 @@ import headshot from '../../assets/images/headshot.svg';
 import background from '../../assets/images/background.svg';
 import interests from '../../assets/images/interests.svg';
 import resume from '../../assets/files/Victory_Onuoha_Resume_Front_End_Software_Developer.pdf';
+import { useEffect } from 'react';
 
 function About() {
+    
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     return (
         <main className='about' id='about' >
 
 
             
                 <article className='about__title-box' >
-                    {/* <img src={wavyWhite} className='about__title-line' alt='a decorative line'/> */}
                     <h2 className='about__title about__title-about'>ABOUT ME 👋🏾 </h2>
                 </article>
 
@@ -79,30 +84,7 @@ function About() {
             </section>
 
             
-                {/* <section className='about__skills-box' >
-                    <h2 className='about__skills' >SKILLS 💻</h2>
-                </section>
-                <p className='about__text'> I am always open to using new tools 
-                    and technologies but, my current tech stack are skills such as:
-                </p>
-
-               
-                <ul className='about__text about__text-list'>
-                    <li className='about__text-list-item' >✅HTML5</li>
-                    <li className='about__text-list-item' >✅CSS3</li>
-                    <li className='about__text-list-item' >✅SASS</li>
-                    <li className='about__text-list-item' >✅FIGMA </li>
-                    <li className='about__text-list-item' >✅React</li>
-                    <li className='about__text-list-item' >✅GIT</li>
-                    <li className='about__text-list-item' >✅Javascript</li>
-                    <li className='about__text-list-item' >✅REST API</li>
-                    <li className='about__text-list-item' >✅Bootstrap</li>
-                    <li className='about__text-list-item' >✅Node.js</li>
-                    <li className='about__text-list-item' >✅Express.js</li>
-                    <li className='about__text-list-item' >✅Firebase </li>
-                    <li className='about__text-list-item' >✅SQL </li>
-
-                </ul> */}
+            
 
                 <section className='about__buttons' >
 

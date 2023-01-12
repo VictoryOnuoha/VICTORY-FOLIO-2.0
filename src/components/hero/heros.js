@@ -1,9 +1,15 @@
-import { HashLink } from 'react-router-hash-link';
 import {Link} from 'react-router-dom';
 import hero from '../../assets/images/heroimage.svg';
 import './hero.scss';
+import { useEffect } from 'react';
+
 
 function Hero() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     return(
         <main className='hero' >
             <section className='hero__about' >

@@ -4,6 +4,8 @@ import './projects.scss';
 
 function Projects() {
 
+  
+
     const [cards, setCards] = useState(projectCards);
     const [currentCard, setCurrentCard] = useState('ALL');
 
@@ -26,6 +28,11 @@ function Projects() {
 
         }
     }, [currentCard] );
+    
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+   
 
     return (
         <main className='projects' id='projects' >
