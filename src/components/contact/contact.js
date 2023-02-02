@@ -21,10 +21,9 @@ function Contact() {
             <section className='contact__form-box' >
                 <article className='contact__cta' >
                     <section className='contact__title-box'>
-                        <h4 className='contact__title-item'>I help businesses and entrepreneurs design, build, test and deploy
-                            web applications.
+                        <h4 className='contact__title-item'>As a product manager in the health and tech space, I assist companies & innovators in crafting, developing, experimenting with, and launching web-based solutions.
                         </h4>
-                        <h4 className='contact__title-item' >Contact me if want an agile and creative software engineer on your team.</h4>
+                        <h4 className='contact__title-item' > Get in touch with me if you're seeking a nimble and imaginative digital product manager to enhance your team.</h4>
                     </section>
                     <section className="contact__links-box" >
                         <a href="mailto: victoryonuoha@cmail.carleton.ca" 
