@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import projectCards from '../../assets/data/cards';
+import projectCards from '../../assets/data/card';
 import './projects.scss';
 
 function Projects() {
@@ -57,11 +57,12 @@ function Projects() {
                                 <p className='projects__description'>{card.description}</p>
                                 
                                 <div className='projects__tech-box' >
-                                    <p className='projects__tech' > Technologies used: {card.technology}</p>
+                                    <p className='projects__tech' > Skills:  {card.technology}</p>
                                 </div>
                                 <div className='projects__links' >
                                     <a href={card.live} target='_blank' rel="noreferrer" className='projects__link'>View Live</a>
                                     <a href={card.repo} target='_blank' rel="noreferrer" className='projects__link'>Repo</a>
+                                    <a href={card.detail} target='_blank' className='projects__link'>Details</a>
                                 </div>
                                 
                             </div>

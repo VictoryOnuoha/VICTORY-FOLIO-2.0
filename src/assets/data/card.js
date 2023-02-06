@@ -11,18 +11,20 @@ const cards = [
         image: card1,
         live: 'https://in-wholeness.web.app/',
         repo: 'https://github.com/RijeStudios/in-wholeness',
-        technology: 'React JS, Javascript, SASS, Slider JS, Node JS, Firebase',
+        detail: 'https://victoryonuoha.hashnode.dev/healing-gut-issues-with-digital-health',
+        technology: 'React JS, JavaScript, SASS, Figma, Node JS, Firebase, UX Design, Product Management',
         id: '2629f55a-2bb4-11ed-a261-0242ac120002'
 
     },
     {
-        title: 'RETRO COFFEE SHOP',
+        title: 'SPRINTDAY',
         category: ['WEB APP', 'FEATURED', 'WEBSITE'],
-        description: 'A stunning and responsive landing page for the best coffee in the world!',
+        description: 'A task management software for the busy bee',
         image: card2,
-        live: 'https://victoryonuoha.github.io/retro-coffee-shop/index.html',
-        repo: 'https://github.com/VictoryOnuoha/retro-coffee-shop',
-        technology: 'HTML5, SASS',
+        live: 'https://www.figma.com/file/XRtPO9p36oJG4cV0LzBUgV/SPRINT-DAY?node-id=3%3A2&t=1PZ9qmuihMDmqgUd-1',
+        repo: 'https://github.com/VictoryOnuoha/SprintDay',
+        detail: 'https://victoryonuoha.hashnode.dev/sprintday-product-roadmap-mvp',
+        technology: 'HTML5, SASS, JavaScript, Figma, UX design, Product Management',
         id: '2629f71c-2bb4-11ed-a261-0242ac120002'
     },
     {
@@ -32,17 +34,19 @@ const cards = [
         image: card4,
         live: 'https://victoryonuoha.github.io/bandsite/index.html',
         repo: 'https://github.com/VictoryOnuoha/bandsite',
+        detail: 'https://victoryonuoha.hashnode.dev/maximizing-user-experience-with-bandsite-a-product-management-approach-using-react-js-javascript-sass-rest-api-and-dom-manipulation',
         technology: 'React JS, Javascript, SASS, REST API',
         id: '2629f8e8-2bb4-11ed-a261-0242ac120002'
     },
     {
         title: 'VICTORY FOLIO',
         category: ['WEB APP', 'WEBSITE'],
-        description: 'Elegant and SEO friendly website for the professional software engineer',
+        description: 'Elegant and SEO friendly website for the tech professional',
         image: card7,
         live: 'https://victoryonuoha.com/',
         repo: 'https://github.com/VictoryOnuoha/VICTORY-FOLIO-2.0',
-        technology: 'React JS, Javascript, SASS, Node JS, Firebase',
+        detail: 'https://victoryonuoha.hashnode.dev/leveraging-react-js-firebase-and-product-management-for-a-standout-portfolio-website',
+        technology: 'React JS, Javascript, SASS, UX Design, Product Management, Node JS, Firebase',
         id: 'bfeb748e-3131-11ed-a261-0242ac120002'
     },
 

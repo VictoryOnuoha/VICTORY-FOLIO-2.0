@@ -1,8 +1,8 @@
 import Header from './components/header/headers'; 
-import About from './components/about/about';
-import Hero from './components/hero/heros';
-import Projects from './components/projects/projects';
-import Contact from './components/contact/contact';
+import About from './components/about/aboutme';
+import Hero from './components/hero/hero';
+import Projects from './components/projects/project';
+import Contact from './components/contact/contacts';
 import Footer from './components/footer/footer';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 

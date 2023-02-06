@@ -27,7 +27,7 @@ function About() {
                     </p>
 
                     <p className='about__text' >I love all things technology, productivity and
-                        nature related. Have fun exploring!
+                        wellness related. Have fun exploring!
                     </p>
 
 
@@ -50,7 +50,7 @@ function About() {
 
                     <article className='about__text-box' >
                         <p className='about__text'>
-                            Software Engineer with additional experience in healthcare & operations.
+                            Product Manager with a background in healthcare, operations and tech.
                         </p>
                         <p className='about__text' >
                             I have a Bachelors of Science in Neuroscience and a diploma in Web Development.
@@ -72,8 +72,7 @@ function About() {
                         Some of which can be found on <a href='https://github.com/VictoryOnuoha' target='_blank'> Github</a>.
                     </p>
                     <p className='about__text' >
-                        My other interests include personal finance, artifical intelligence, automation, reading, writing,
-                        design, emerging technologies and pop culture.
+                        My other interests include design, artifical intelligence, automation, reading, writing & emerging technologies.
                     </p>
 
                 </article>
