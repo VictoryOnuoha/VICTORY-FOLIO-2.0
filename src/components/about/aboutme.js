@@ -2,7 +2,7 @@ import './about.scss';
 import headshot from '../../assets/images/headshot.svg';
 import background from '../../assets/images/background.svg';
 import interests from '../../assets/images/interests.svg';
-import resume from '../../assets/files/Victory_Onuoha_Resume_Front_End_Software_Developer.pdf';
+import resume from '../../assets/files/Victory_Onuoha_Product_Management_Resume.pdf';
 import { useEffect } from 'react';
 
 function About() {
