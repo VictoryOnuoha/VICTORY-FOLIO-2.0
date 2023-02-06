@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.18d7ad6d.css",
-    "main.js": "/static/js/main.569994ec.js",
+    "main.css": "/static/css/main.00e4ab1f.css",
+    "main.js": "/static/js/main.56bec220.js",
     "static/media/card 4.png": "/static/media/card 4.b4aebcc752097e22c0ce.png",
     "static/media/card 2.png": "/static/media/card 2.fd43de04148725042727.png",
     "static/media/card 1.png": "/static/media/card 1.5e4375b248f721a7a7d1.png",
     "static/media/card 7.png": "/static/media/card 7.7c57a52d9800db40859e.png",
-    "static/media/Victory_Onuoha_Resume_Front_End_Software_Developer.pdf": "/static/media/Victory_Onuoha_Resume_Front_End_Software_Developer.f92b60a146225ad8dc44.pdf",
+    "static/media/Victory_Onuoha_Product_Management_Resume.pdf": "/static/media/Victory_Onuoha_Product_Management_Resume.7a28dfe61620af75ed0d.pdf",
     "static/media/Comfortaa-Medium.ttf": "/static/media/Comfortaa-Medium.db5c74bd40268b35dc93.ttf",
     "static/media/Comfortaa-Light.ttf": "/static/media/Comfortaa-Light.2d79c8b673318d831c9b.ttf",
     "static/media/Comfortaa-Bold.ttf": "/static/media/Comfortaa-Bold.059cc3e0c5d00a88354f.ttf",
@@ -25,11 +25,11 @@
     "static/media/github-white.svg": "/static/media/github-white.d4577cfbb9306cfe891b2ac5c1586b8c.svg",
     "static/media/linkedin-white.svg": "/static/media/linkedin-white.7ea113699fb66e38731911cd17c61005.svg",
     "index.html": "/index.html",
-    "main.18d7ad6d.css.map": "/static/css/main.18d7ad6d.css.map",
-    "main.569994ec.js.map": "/static/js/main.569994ec.js.map"
+    "main.00e4ab1f.css.map": "/static/css/main.00e4ab1f.css.map",
+    "main.56bec220.js.map": "/static/js/main.56bec220.js.map"
   },
   "entrypoints": [
-    "static/css/main.18d7ad6d.css",
-    "static/js/main.569994ec.js"
+    "static/css/main.00e4ab1f.css",
+    "static/js/main.56bec220.js"
   ]
 }
