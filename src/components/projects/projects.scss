@@ -106,6 +106,7 @@
         margin: 0.2rem 0.2rem;
         cursor: pointer;
         width: 25%;
+        transition: all .5s ease;
         @include mixins.tablet {
             font-size: 0.8rem;
             font-weight: 700;
@@ -119,5 +120,9 @@
         @include mixins.largeDesktop {
             font-size: 1.5rem;
         }
+    }
+    &__button:hover {
+        background-color: #001F3F;
+        color: #fff;
     }
 }

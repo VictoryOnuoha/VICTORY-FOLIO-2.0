@@ -70,6 +70,7 @@
         text-decoration: underline wavy;
     }
     &__list-item-selected {
+        transition: all .5s ease;
         @include mixins.tablet {
             padding: 0.3rem 1rem;
             background-color: #02f5a4;
@@ -85,5 +86,9 @@
     }
     &__list-item-selected:hover {
         text-decoration: none;
+    }
+    &__list-item-selected:hover {
+        background-color: #001F3F;
+        color: #fff;
     }
 }

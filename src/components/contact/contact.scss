@@ -77,6 +77,9 @@
             width: 8rem;
         }
     }
+    &__link-email:hover{
+        transform: scale(1.5);
+    }
     &__link {
         @include mixins.tablet {
             width: 5rem;
@@ -84,6 +87,9 @@
         @include mixins.largeDesktop {
             width: 8rem;
         }
+    }
+    &__link:hover {
+        transform: scale(1.5);
     }
 
     // &__form-box {

@@ -159,6 +159,7 @@
         letter-spacing: 0.1rem;
         border-radius: 0.5rem;
        padding:  0.5rem;
+       transition: all .5s ease;
        text-decoration: none;
        @include mixins.desktop {
         font-size: 1.2rem;
@@ -168,6 +169,10 @@
         padding: 1rem 1.2rem;
 
        }
+    }
+    &__button:hover {
+        background-color: #001F3F;
+        color: #fff;
     }
    
 }
