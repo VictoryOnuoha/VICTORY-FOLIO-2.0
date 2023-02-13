@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import projectCards from '../../assets/data/card';
+import projectCards from '../../assets/data/cards';
 import './projects.scss';
 
 function Projects() {

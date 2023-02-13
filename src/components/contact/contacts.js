@@ -21,9 +21,10 @@ function Contact() {
             <section className='contact__form-box' >
                 <article className='contact__cta' >
                     <section className='contact__title-box'>
-                        <h4 className='contact__title-item'>As a product manager in the health and tech space, I assist companies & innovators in crafting, developing, experimenting with, and launching web-based solutions.
+                        <h4 className='contact__title-item'>
+                        As a Front-end Web developer with a unique background in the health and operations industry, my role is to design, develop and deploy web-based solutions that meet the needs of companies and innovators. 
                         </h4>
-                        <h4 className='contact__title-item' > Get in touch with me if you're seeking a nimble and imaginative digital product manager to enhance your team.</h4>
+                        <h4 className='contact__title-item' > Get in touch with me if you're seeking a creative and skilled Web developer to join your team.</h4>
                     </section>
                     <section className="contact__links-box" >
                         <a href="mailto: victoryonuoha@cmail.carleton.ca" 

@@ -20,7 +20,7 @@ function Hero() {
 
                         <section className='hero__title-box' >
                             <h2 className='hero__job-title'> Hello. I am Victory.</h2>
-                            <h2 className='hero__job-title'> I am a Product Manager based in Canada.</h2>
+                            <h2 className='hero__job-title'> I am a Front End Web Developer based in Canada.</h2>
                         </section>
                         
                         <section className='hero__buttons' >

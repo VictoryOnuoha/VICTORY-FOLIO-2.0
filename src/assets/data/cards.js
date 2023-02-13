@@ -12,7 +12,7 @@ const cards = [
         live: 'https://in-wholeness.web.app/',
         repo: 'https://github.com/RijeStudios/in-wholeness',
         detail: 'https://victoryonuoha.hashnode.dev/healing-gut-issues-with-digital-health',
-        technology: 'React JS, JavaScript, SASS, Figma, Node JS, Firebase, UX Design, Product Management',
+        technology: 'React JS, JavaScript, SASS, Figma, Node JS, Firebase, UX Design',
         id: '2629f55a-2bb4-11ed-a261-0242ac120002'
 
     },
@@ -24,7 +24,7 @@ const cards = [
         live: 'https://www.figma.com/file/XRtPO9p36oJG4cV0LzBUgV/SPRINT-DAY?node-id=3%3A2&t=1PZ9qmuihMDmqgUd-1',
         repo: 'https://github.com/VictoryOnuoha/SprintDay',
         detail: 'https://victoryonuoha.hashnode.dev/sprintday-product-roadmap-mvp',
-        technology: 'HTML5, SASS, JavaScript, Figma, UX design, Product Management',
+        technology: 'HTML5, SASS, JavaScript, Figma, UX design,  SQL',
         id: '2629f71c-2bb4-11ed-a261-0242ac120002'
     },
     {
@@ -35,7 +35,7 @@ const cards = [
         live: 'https://victoryonuoha.github.io/bandsite/index.html',
         repo: 'https://github.com/VictoryOnuoha/bandsite',
         detail: 'https://victoryonuoha.hashnode.dev/maximizing-user-experience-with-bandsite-a-product-management-approach-using-react-js-javascript-sass-rest-api-and-dom-manipulation',
-        technology: 'React JS, Javascript, SASS, REST API',
+        technology: 'HTML5, React JS, Javascript, SASS, REST API',
         id: '2629f8e8-2bb4-11ed-a261-0242ac120002'
     },
     {
