@@ -2,7 +2,7 @@ import './about.scss';
 import headshot from '../../assets/images/headshot.svg';
 import background from '../../assets/images/background.svg';
 import interests from '../../assets/images/interests.svg';
-import resume from '../../assets/files/VictoryOnuoha_WebDeveloper_Resume.pdf';
+import resume from '../../assets/files/VictoryOnuoha_ProjectManager_Resume.pdf';
 import { useEffect } from 'react';
 
 function About() {
@@ -50,11 +50,13 @@ function About() {
 
                     <article className='about__text-box' >
                         <p className='about__text'>
-                            Web Developer with a background in healthcare and operations.
+                            Agile Project Manager with a background in healthcare and operations.
                         </p>
                         <p className='about__text' >
                             I have a Bachelors of Science in Neuroscience and a diploma in Web Development.
-                            I am passionate about using technolgy to solve client-facing problems.
+                            I am also currently taking a Project Management Certification.<br/> 
+                            I am passionate about using technolgy to solve client-facing problems using my strong communication
+                            and organizational skills.
                         </p>
                     </article>
 

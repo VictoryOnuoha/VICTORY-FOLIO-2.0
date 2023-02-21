@@ -22,9 +22,9 @@ function Contact() {
                 <article className='contact__cta' >
                     <section className='contact__title-box'>
                         <h4 className='contact__title-item'>
-                        As a Front-end Web developer with a unique background in the health and operations industry, my role is to design, develop and deploy web-based solutions that meet the needs of companies and innovators. 
+                        As an Agile and experienced Project Manager with a background in healthcare and operations, I specialize in managing the development and deployment of technical and non technical solutions that meet the needs of companies and innovators. <br/><br/>I have a proven track record of delivering successful projects on time and within budget, while ensuring that all project requirements are met.
                         </h4>
-                        <h4 className='contact__title-item' > Get in touch with me if you're seeking a creative and skilled Web developer to join your team.</h4>
+                        <h4 className='contact__title-item' > Let's connect if you're looking for a skilled Project Manager to drive innovation and collaboration in your team.</h4>
                     </section>
                     <section className="contact__links-box" >
                         <a href="mailto: victoryonuoha@cmail.carleton.ca" 
