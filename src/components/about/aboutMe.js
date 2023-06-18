@@ -2,7 +2,7 @@ import './about.scss';
 import headshot from '../../assets/images/headshot.svg';
 import background from '../../assets/images/background.svg';
 import interests from '../../assets/images/interests.svg';
-import resume from '../../assets/files/VictoryOnuoha_ProjectManager_Resume.pdf';
+import resume from '../../assets/files/VictoryO_ProjectManager.pdf';
 import { useEffect } from 'react';
 
 function About() {
